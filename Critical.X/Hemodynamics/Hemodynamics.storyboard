@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uEI-eq-Z6k">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hemodynamics Collection View-->
+        <scene sceneID="LGe-d1-SAc">
+            <objects>
+                <viewController storyboardIdentifier="HD" modalPresentationStyle="overFullScreen" id="uEI-eq-Z6k" customClass="Hemodynamics_CollectionView" customModule="Critical_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v4R-Gm-y01">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8xz-cm-9Pm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="EPD-SK-hVb">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-Tt-N1Z">
+                                            <rect key="frame" x="273" y="36" width="39" height="36"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                            <state key="normal" title="X">
+                                                <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="dismissHemodynamics:" destination="uEI-eq-Z6k" eventType="touchUpInside" id="iRm-3L-lDe"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="i17-px-IBu">
+                                <rect key="frame" x="0.0" y="119" width="320" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KYK-Ia-YSr">
+                                    <size key="itemSize" width="295" height="79"/>
+                                    <size key="headerReferenceSize" width="2" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="LlE-wS-idQ" customClass="Hemodynamics_Cell" customModule="Critical_X" customModuleProvider="target">
+                                        <rect key="frame" x="12.5" y="0.0" width="295" height="79"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="295" height="79"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2-6 mmHg" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0dI-KU-5a4">
+                                                    <rect key="frame" x="20" y="42" width="255" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                                    <color key="textColor" red="0.8912609816" green="0.35455638169999998" blue="0.39968371390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="2"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Central Venous Pressures (CVP)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P20-Dl-fyl">
+                                                    <rect key="frame" x="20" y="5" width="247" height="42"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="18"/>
+                                                    <color key="textColor" name="Clouds"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="hemoSubTitle" destination="0dI-KU-5a4" id="ja1-0N-Gsm"/>
+                                            <outlet property="hemoTitle" destination="P20-Dl-fyl" id="D1L-dE-JcM"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wkF-Az-ZaE">
+                                    <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionReusableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="uEI-eq-Z6k" id="XzF-IX-kdA"/>
+                                    <outlet property="delegate" destination="uEI-eq-Z6k" id="L12-Fo-h6b"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hemodynamics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zLE-2p-TgL" customClass="AKLabel" customModule="AKLabel">
+                                <rect key="frame" x="18" y="64" width="286" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="42"/>
+                                <color key="textColor" name="Critical Black"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CRITICAL_Hemodynamcis_Logo_Circle" translatesAutoresizingMaskIntoConstraints="NO" id="CgZ-AB-rVD">
+                                <rect key="frame" x="11" y="35" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cCr-Oo-4RQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="hemodynamicsImage" destination="CgZ-AB-rVD" id="3Tk-R6-SY6"/>
+                        <outlet property="hemodynamicsTitleLabel" destination="zLE-2p-TgL" id="0U4-t3-nUG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1nV-EK-uDM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3075" y="-1500"/>
+        </scene>
+        <!--Hemodynamics Detail View-->
+        <scene sceneID="baV-O5-x1R">
+            <objects>
+                <viewController storyboardIdentifier="A" modalPresentationStyle="overFullScreen" id="vdG-b5-eeE" customClass="Hemodynamics_DetailView" customModule="Critical_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VvG-UA-ilW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jhM-ae-6cr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="x23-2h-xuf">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="btv-sx-oP5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kxy-YN-HAP">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqE-Vq-Sm5">
+                                                <rect key="frame" x="8" y="149" width="304" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="304" id="SeH-3B-4oQ"/>
+                                                    <constraint firstAttribute="height" constant="21" id="a1P-gA-SQc"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                                <color key="textColor" name="Cool Mint"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hemodynamics" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Vt-B5-JuL">
+                                                <rect key="frame" x="16" y="71" width="288" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="67" id="nVc-qW-Htf"/>
+                                                    <constraint firstAttribute="width" constant="288" id="wMZ-sW-pBT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="43"/>
+                                                <color key="textColor" name="Silver"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5F6-WC-qHb">
+                                                <rect key="frame" x="25" y="186" width="272" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" name="NeutralGray"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ga-y5-HcI">
+                                                <rect key="frame" x="260" y="27" width="47" height="47"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="47" id="qvE-Y3-3bS"/>
+                                                    <constraint firstAttribute="width" constant="47" id="wIF-Oi-8ry"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                                <state key="normal" title="X">
+                                                    <color key="titleColor" name="Clouds"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="dismissHemodynamicsDetail:" destination="vdG-b5-eeE" eventType="touchUpInside" id="PvT-XJ-UQr"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CVP1" translatesAutoresizingMaskIntoConstraints="NO" id="EYn-UY-zMY">
+                                                <rect key="frame" x="8" y="217" width="304" height="187"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="187" id="Vt0-A9-Ohv"/>
+                                                    <constraint firstAttribute="width" constant="304" id="c7j-Sx-487"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="5F6-WC-qHb" firstAttribute="leading" secondItem="kxy-YN-HAP" secondAttribute="leading" constant="25" id="1QQ-XV-Wzo"/>
+                                            <constraint firstAttribute="trailing" secondItem="EYn-UY-zMY" secondAttribute="trailing" constant="8" id="5x2-de-eC2"/>
+                                            <constraint firstItem="5Ga-y5-HcI" firstAttribute="top" secondItem="kxy-YN-HAP" secondAttribute="top" constant="27" id="9wQ-0p-gb0"/>
+                                            <constraint firstItem="uqE-Vq-Sm5" firstAttribute="leading" secondItem="kxy-YN-HAP" secondAttribute="leading" constant="8" id="B2g-Nf-hpR"/>
+                                            <constraint firstItem="EYn-UY-zMY" firstAttribute="leading" secondItem="kxy-YN-HAP" secondAttribute="leading" constant="8" id="BzD-ac-OuB"/>
+                                            <constraint firstAttribute="trailing" secondItem="uqE-Vq-Sm5" secondAttribute="trailing" constant="8" id="TD6-Z5-HUE"/>
+                                            <constraint firstItem="5F6-WC-qHb" firstAttribute="top" secondItem="uqE-Vq-Sm5" secondAttribute="bottom" constant="16" id="TJc-Qe-Wcq"/>
+                                            <constraint firstAttribute="trailing" secondItem="5Ga-y5-HcI" secondAttribute="trailing" constant="13" id="UKw-Ec-9wd"/>
+                                            <constraint firstItem="EYn-UY-zMY" firstAttribute="top" secondItem="5F6-WC-qHb" secondAttribute="bottom" constant="14" id="aPk-R5-mPI"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1268" id="bYc-96-8e9"/>
+                                            <constraint firstItem="uqE-Vq-Sm5" firstAttribute="top" secondItem="8Vt-B5-JuL" secondAttribute="bottom" constant="11" id="czi-nb-ZPX"/>
+                                            <constraint firstItem="8Vt-B5-JuL" firstAttribute="leading" secondItem="kxy-YN-HAP" secondAttribute="leading" constant="16" id="hKp-lX-pYe"/>
+                                            <constraint firstAttribute="bottom" secondItem="8Vt-B5-JuL" secondAttribute="bottom" constant="1130" id="hlW-Jw-KNT"/>
+                                            <constraint firstAttribute="width" constant="320" id="ofp-Fh-6pv"/>
+                                            <constraint firstAttribute="trailing" secondItem="8Vt-B5-JuL" secondAttribute="trailing" constant="16" id="pbo-73-mcl"/>
+                                            <constraint firstAttribute="trailing" secondItem="5F6-WC-qHb" secondAttribute="trailing" constant="23" id="vFL-cx-Qbx"/>
+                                            <constraint firstItem="8Vt-B5-JuL" firstAttribute="top" secondItem="kxy-YN-HAP" secondAttribute="top" constant="71" id="wPT-u7-BEn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="kxy-YN-HAP" secondAttribute="bottom" id="Muf-DN-80y"/>
+                                    <constraint firstItem="kxy-YN-HAP" firstAttribute="width" secondItem="btv-sx-oP5" secondAttribute="width" id="Y9T-BH-nn3"/>
+                                    <constraint firstAttribute="trailing" secondItem="kxy-YN-HAP" secondAttribute="trailing" id="eEH-EN-AuQ"/>
+                                    <constraint firstItem="kxy-YN-HAP" firstAttribute="top" secondItem="btv-sx-oP5" secondAttribute="top" id="jGG-FD-Bs9"/>
+                                    <constraint firstItem="kxy-YN-HAP" firstAttribute="leading" secondItem="btv-sx-oP5" secondAttribute="leading" id="yKK-WW-DuM"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="btv-sx-oP5" firstAttribute="leading" secondItem="Qzl-Ux-dWB" secondAttribute="leading" id="5Jl-jf-vmp"/>
+                            <constraint firstItem="btv-sx-oP5" firstAttribute="bottom" secondItem="Qzl-Ux-dWB" secondAttribute="bottom" id="7ho-bB-U31"/>
+                            <constraint firstItem="btv-sx-oP5" firstAttribute="top" secondItem="VvG-UA-ilW" secondAttribute="top" id="7so-y4-3xS"/>
+                            <constraint firstItem="btv-sx-oP5" firstAttribute="trailing" secondItem="Qzl-Ux-dWB" secondAttribute="trailing" id="fC6-GC-7bV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Qzl-Ux-dWB"/>
+                    </view>
+                    <connections>
+                        <outlet property="detailDescriptionLabel" destination="5F6-WC-qHb" id="ojN-QF-D3U"/>
+                        <outlet property="hemoDynamics_Scroller" destination="btv-sx-oP5" id="tZS-gM-8V4"/>
+                        <outlet property="imageView" destination="EYn-UY-zMY" id="QEd-Dl-esG"/>
+                        <outlet property="subtitle_Hemodynamics" destination="uqE-Vq-Sm5" id="OYa-sn-1da"/>
+                        <outlet property="titleLabel" destination="8Vt-B5-JuL" id="OG5-ec-Jqp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ga-fr-lSk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3866" y="-1500"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CRITICAL_Hemodynamcis_Logo_Circle" width="1782" height="1771"/>
+        <image name="CVP1" width="1704" height="912"/>
+        <namedColor name="Clouds">
+            <color red="0.92500001192092896" green="0.94099998474121094" blue="0.94499999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cool Mint">
+            <color red="0.62699997425079346" green="0.93300002813339233" blue="0.75300002098083496" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Critical Black">
+            <color red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NeutralGray">
+            <color red="0.55699998140335083" green="0.5690000057220459" blue="0.56099998950958252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Silver">
+            <color red="0.74099999666213989" green="0.76499998569488525" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

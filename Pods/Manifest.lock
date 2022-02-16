@@ -1,0 +1,64 @@
+PODS:
+  - AKLabel (1.0)
+  - DatePickerDialog (4.0)
+  - EasyPeasy (1.10.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - lottie-ios (3.2.3)
+  - LTMorphingLabel (0.9.3)
+  - McPicker (3.0.0)
+  - OnboardKit (1.5.0)
+  - SCLAlertView (0.8)
+  - Siren (5.7.1)
+  - SteviaLayout (4.7.3)
+  - TextFieldEffects (1.6.0)
+  - TTSegmentedControl (0.4.10)
+
+DEPENDENCIES:
+  - AKLabel
+  - DatePickerDialog
+  - EasyPeasy
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - LTMorphingLabel
+  - McPicker
+  - OnboardKit
+  - SCLAlertView
+  - Siren
+  - SteviaLayout
+  - TextFieldEffects
+  - TTSegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - AKLabel
+    - DatePickerDialog
+    - EasyPeasy
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - LTMorphingLabel
+    - McPicker
+    - OnboardKit
+    - SCLAlertView
+    - Siren
+    - SteviaLayout
+    - TextFieldEffects
+    - TTSegmentedControl
+
+SPEC CHECKSUMS:
+  AKLabel: 3eaa8ffc180d9130dcd81d988d56f764b9c862be
+  DatePickerDialog: ccff2f91ff7a018057a4d72fa5ad6de49c8cb0cd
+  EasyPeasy: b9b1bae024d21a7dfa9bad26d6826d88348cc6f1
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  LTMorphingLabel: f2b256e4fe665aac27f0d0e8ccdcd79590f0cd70
+  McPicker: ba38be56a8194faa5249eca4226c364eed628044
+  OnboardKit: 73a4e9c9a1ae88afee0514ac3f2bc4f82126b66e
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  Siren: 76ac728f4f2f4a3576c322272e94a0e37955664f
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+  TTSegmentedControl: d8005c0cdca2549ade0aee8e09240723e2478a6a
+
+PODFILE CHECKSUM: a3ce77c621c3f9e695a77970420c69d2e71fae7c
+
+COCOAPODS: 1.11.2

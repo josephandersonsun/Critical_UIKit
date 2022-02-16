@@ -1,0 +1,1758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>MainTitle</key>
+		<string>Adenosine</string>
+		<key>BrandName</key>
+		<string>Adenocard</string>
+		<key>DrugClass</key>
+		<string>Endogenous nucleoside, antidysrhythmic.</string>
+		<key>Dose</key>
+		<string>6 mg, 12 mg</string>
+		<key>Mechanism</key>
+		<string>Restores a normal sinus rhythm by blocking the transmission of impulses through the AV node by binding to the Adenosine-1 receptor. Slows conduction time through the AV node. Finally, causes arterial vasodilatation by binding to vascular endothelial tissue.</string>
+		<key>Indications</key>
+		<string>First drug for narrow complex tachycardia. May be used diagnostically in wide complex tachycardia of unknown type. PSVT associated with WPW. 
+
+Chemically convert PSVT into NSR when vagal maneuvers are ineffective. </string>
+		<key>Contraindications</key>
+		<string>Absolute contraindications include known hypersensitivity, 2nd or 3rd degree AV block or sick sinus syndrome unless a functional artificial pacemaker is present. 
+
+Relative contraindications include Wide Complex SVT, suspected or confirmed WPW syndrome, Atrial Fibrillation, Atrial Flutter, bradycardia, Stokes-Adams Syndrome, Ventricular Tachycardia, drug-mediated tachycardia. </string>
+		<key>AdverseEffects</key>
+		<string>Flushing, chest pain, brief periods of asystole, bradycardia, ventricular ectopy, headache, blurred vision, SOB, burning sensation, heaviness in the arms.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>1-2 min</string>
+		<key>HalfLife</key>
+		<string>&lt; 10 sec</string>
+		<key>Absorbtion</key>
+		<string>&lt; 20 sec</string>
+		<key>Distribution</key>
+		<string>Erythrocytes, endothelium.</string>
+		<key>Metabolism</key>
+		<string>Extensively the liver</string>
+		<key>Excretion</key>
+		<string>Urine, breast</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Albumin (Human) 5, 25%</string>
+		<key>BrandName</key>
+		<string>Plasbumin-5, 25</string>
+		<key>DrugClass</key>
+		<string>Colloid, blood volume expander, blood product derivative.</string>
+		<key>Dose</key>
+		<string>12.5-25 g</string>
+		<key>Mechanism</key>
+		<string>Albumin increases intravascular plasma volume by providing colloidal oncotic pressure, gathering fluid from extravascular tissues back into the intravascular space - thus expanding intravascular plasma volume, reducing edema, and maintaining cardiac output.</string>
+		<key>Indications</key>
+		<string>Hypovolemia, ARDS, shock, hemorrhage, burns,  nephrotic syndrome and end-stage liver disease.
+
+Use 5% solution in hypovolemia or in patients that are intravascularly-depleted patients. IV (Children): 0.5–1 g/kg/dose (10 – 20 mL/kg/ dose) may repeat as needed (maximum 6 g/kg/day). IV (Infants and Neonates): 0.25–0.5 g/kg/dose (5–10 mL/kg/dose).
+
+Use 25% in patients in whom fluid and sodium intake are restricted - Hypoproteinemia or nephrotic syndrome. IV (Children, Infants, and Neonates): 0.5 – 1 g/kg/ dose, may repeat every 1–2 days.
+
+Albumin usually will require concurrent administration of appropriate crystalloid.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity to albumin products, severe anemia, heart failure, hypervolemia.
+
+Use cautiously in severe hepatic or renal disease.
+In patients requiring sodium restriction, i.e., Preterm neonates, (infuse slowly due to increased risk of intravascular hemorrhage).</string>
+		<key>AdverseEffects</key>
+		<string>Pulmonary edema, fluid overload, headache, hypertension, and tachycardia.</string>
+		<key>Onset</key>
+		<string>15-30 min</string>
+		<key>Duration</key>
+		<string>24 hrs</string>
+		<key>HalfLife</key>
+		<string>2-3 wks</string>
+		<key>Absorbtion</key>
+		<string>Completely absorbed.</string>
+		<key>Distribution</key>
+		<string>Confined to the intravascular space.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>None.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Albuterol</string>
+		<key>BrandName</key>
+		<string>Proventil</string>
+		<key>Mechanism</key>
+		<string>Selectively binds to β2 receptors causing bronchodilation. Increased CAMP levels are associated with the relaxation of bronchial smooth muscle from the decrease of intracellular calcium resulting in subsequent bronchodilation. </string>
+		<key>AdverseEffects</key>
+		<string>Fine muscle tremors, nervousness, headache, muscle cramps, dry mouth, palpitations, tachycardia, arrhythmias, flushing, myocardial ischemia, and disturbances of sleep, paradoxical bronchospasm. Use caution in patients with uncontrolled hyperthyroidism or glaucoma. May increase glucose levels in patients with diabetes.</string>
+		<key>Dose</key>
+		<string>2.5 mg nebulized</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+		<key>DrugClass</key>
+		<string>β2 adrenergeic bronchodilator.</string>
+		<key>Indications</key>
+		<string>Relief of bronchospasms in patients with reversible obstructive airway disease and acute attacks of bronchospasms - asthma, COPD, adjunctively in pulmonary edema (cardiac asthma) and other restrictive/obstructive airway diseases such as Cystic Fibrosis, and Pneumonia.</string>
+		<key>Contraindications</key>
+		<string>Known hypersensitivity, severe hypokalemia.</string>
+		<key>Onset</key>
+		<string>3-7 min</string>
+		<key>HalfLife</key>
+		<string>3-8 hrs</string>
+		<key>Duration</key>
+		<string>15 min - 2hrs </string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Unknown, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver extensively, &amp; tissues.</string>
+		<key>Excretion</key>
+		<string>Unknown.</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Amiodarone</string>
+		<key>BrandName</key>
+		<string>Cordarone ®</string>
+		<key>Mechanism</key>
+		<string>Amiodarone chemically resembles thyroxine (thyroid hormone) and is used in a wide variety of atrial and ventricular tachyarrhythmias to control rapid arrhythmias in patients with impaired LV function when Digoxin is not useful. 
+
+Amiodarone prolongs phase III of the cardiac action potential. Amiodarone also has actions that are similar to those of antiarrhythmic classes I-A, II, and IV. Amiodarone has beta blocker-like and potassium channel blocker-like effects on the SA and AV nodes. </string>
+		<key>AdverseEffects</key>
+		<string>May prolong the QT interval. Numerous long-term side effects which include interstitial lung disease, blue-gray skin discoloration, visual disturbances, liver toxicity, and thyroid imbalances.
+
+Acutely may cause bradycardia, cardiogenic shock, and sinoatrial blocks. ARDS, pulmonary fibrosis, worsening of arrhythmias, CHF, toxic epidermal necrosis, peripheral neuropathy, tremors, ataxia, and paresthesias.</string>
+		<key>Dose</key>
+		<string>300 mg, 150 mg</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+		<key>DrugClass</key>
+		<string>Class III antiarrhythmic agent that blocks cardiac potassium channels, prolonging the phase 3 repolarization of the cardiac action potential. 
+
+Exhibits characteristics of class I, II and IV antiarrhythmics as well.</string>
+		<key>Indications</key>
+		<string>Initially, 300 mg IV refractory VF/pulseless VT. 150 mg IVP for polymorphic VT and wide complex tachycardia of uncertain types. 
+
+It is preferred to control hemodynamically stable VT when cardioversion is unsuccessful. 
+
+SVT, PSVT and atrial tachycardia with preserved LV function. A-fib or flutter.</string>
+		<key>Contraindications</key>
+		<string>Absolute contraindications include hypersensitivity to amiodarone or iodine. 
+
+Use with caution in patients on other medications affecting cardiac depolarization-repolarization cycle, especially digitalis. 
+
+Can cause fetal hypo/hyperthyroidism. May increase the retention of Warfarin and contribute to coagulopathy. 
+
+Do not use in patients with preexisting heart blocks unless corrected by a pacemaker. </string>
+		<key>Onset</key>
+		<string>2 hrs IV</string>
+		<key>HalfLife</key>
+		<string>13-107 days</string>
+		<key>Duration</key>
+		<string>Unknown.</string>
+		<key>Absorbtion</key>
+		<string>Crosses absorbed IV</string>
+		<key>Distribution</key>
+		<string>Blood, tissues, crosses placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Extensively the liver.</string>
+		<key>Excretion</key>
+		<string>Bile, Urine.</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Aspirin</string>
+		<key>BrandName</key>
+		<string>ASA</string>
+		<key>DrugClass</key>
+		<string>Salicylate, nonnarcotic analgesic, anti-inflammatory, anti-platelet aggregator and antipyretic.</string>
+		<key>Dose</key>
+		<string>324 mg PO</string>
+		<key>Mechanism</key>
+		<string>Aspirin decreases platelet aggregation (impedes clotting) by irreversibly inhibiting cyclooxygenase and selectively blocking thromboxane α-2 which inhibits clot formation. Produces analgesia by affecting the hypothalamus and by blocking generation of pain impulses. Exerts anti-inflammatory effects by inhibiting prostaglandin synthesis. </string>
+		<key>Indications</key>
+		<string>Analgesia, fever, anti-inflammatory, dysmenorrhea, prophylaxis of myocardial infarction, thromboembolic disorders, thrombosis prophylaxis, transient ischemic attacks.</string>
+		<key>Contraindications</key>
+		<string>Absolute contraindications include hypersensitivity,  tartrazine, or other salicylates, active hemorrhage, aspirin-sensitive asthma. 
+
+Relative contraindications include thrombocytopenia or coagulopathy. Children or adolescents with viral infections (may increase the risk of Reye’s syndrome).</string>
+		<key>AdverseEffects</key>
+		<string>GI bleeding, nausea, abdominal pain, anaphylaxis, laryngeal edema, Stevens-Johnson Syndrome, stomach discomfort or hemorrhage, nausea, rash.</string>
+		<key>Onset</key>
+		<string>5-30 min</string>
+		<key>Duration</key>
+		<string>3-6 hrs</string>
+		<key>HalfLife</key>
+		<string>2-30 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed, hepatotoxic.</string>
+		<key>Distribution</key>
+		<string>Crosses placenta and breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver extensively.</string>
+		<key>Excretion</key>
+		<string>Urine, breast milk.</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Atenolol</string>
+		<key>BrandName</key>
+		<string>Tenormin ®</string>
+		<key>DrugClass</key>
+		<string>Competitive β1 cardio selective adrenergic antagonist.</string>
+		<key>Dose</key>
+		<string>5.0 mg IVP</string>
+		<key>Mechanism</key>
+		<string>Blocks stimulation of β1 (myocardial)-adrenergic receptors. Does not usually affect β2 (pulmonary, vascular, uterine)-receptor sites.</string>
+		<key>Indications</key>
+		<string>Treatment of hypertension, arrhythmias such as SVT, PSVT, A-fib / A-flutter unconverted after adenosine, management of angina pectoris and secondary prevention of post-MI. Off-Label: Alcohol withdraw. </string>
+		<key>Contraindications</key>
+		<string>Sinus bradycardia, pulmonary edema, cardiogenic shock, 2nd or 3rd-degree heart blocks, cardiogenic shock, pregnancy and cardiac failure.</string>
+		<key>AdverseEffects</key>
+		<string>Atenolol is generally well tolerated. Monitor for heart failure, dyspnea, dizziness, bradycardia and pulmonary edema. Do not administer soon after Calcium Channel Blocking  agents such as verapamil or diltiazem as it can cause arrhythmias or hypotension. Monitor for an increase in BUN, ANA, uric acid and K+ levels.</string>
+		<key>Onset</key>
+		<string>1 hr</string>
+		<key>Duration</key>
+		<string>24 hrs</string>
+		<key>HalfLife</key>
+		<string>6-9 hrs</string>
+		<key>Absorbtion</key>
+		<string>GI tract, protein.</string>
+		<key>Distribution</key>
+		<string>Crosses the placenta and breast milk.</string>
+		<key>Metabolism</key>
+		<string>Minimally, liver.</string>
+		<key>Excretion</key>
+		<string>Urine 40-50%, feces.</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Atropine Sulfate</string>
+		<key>BrandName</key>
+		<string>AtroPen</string>
+		<key>DrugClass</key>
+		<string>Acetylcholine antagonist, anticholinergic (parasympathetic), antiarrhythmic.</string>
+		<key>Dose</key>
+		<string>0.5 - 1.0 mg</string>
+		<key>Mechanism</key>
+		<string>Atropine inhibits the actions of acetylcholine on structures innervated by the postganglionic cholinergic nerves on smooth muscles which respond to endogenous acetylcholine. Increases the firing of the sinoatrial node (SA) and AV node opposing the actions of the vagus nerve by blocking the acetylcholine receptor sites - overall producing ophthalmic cycloplegia, mydriasis, decreased GI motility, secretions, ureter, and bladder tone.</string>
+		<key>Indications</key>
+		<string>Primary drug for symptomatic bradycardia (class IA). Lessen the degree of a heart block due to the increased vagal tone. 
+
+Reverse the adverse muscarinic effects of anticholinesterase agents such as neostigmine, physostigmine, or pyridostigmine. 
+
+Organophosphate/anticholinesterase poisoning. </string>
+		<key>Contraindications</key>
+		<string>Absolute contraindication in known allergies. Caution in unmanaged narrow-angle glaucoma and urinary retention, tachycardia, obstructive GI disease, thyrotoxicosis. </string>
+		<key>AdverseEffects</key>
+		<string>Caution in the presence of myocardial ischemia, and hypoxia. Increases myocardial oxygen demand. Use with caution in AV node blocks (type II) and new third-degree blocks with wide QRS complexes (class IIB). Be prepared to pace. Dry mouth, blurred vision, pupil dilation, photophobia, and tachycardia. May cause ventricular and supraventricular dysrhythmias or paradoxical bradycardia if underdosed.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>4-6 hrs</string>
+		<key>HalfLife</key>
+		<string>2-3 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed IV, IO, IM.</string>
+		<key>Distribution</key>
+		<string>Crosses BBB, placenta.</string>
+		<key>Metabolism</key>
+		<string>Hepatic.</string>
+		<key>Excretion</key>
+		<string>Urine 13-50%. Not dialyzable.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Bumetanide</string>
+		<key>BrandName</key>
+		<string>Bumex ®</string>
+		<key>DrugClass</key>
+		<string>Loop diuretic, antihypertensive.</string>
+		<key>Dose</key>
+		<string>0.5-1.0 mg IV</string>
+		<key>Mechanism</key>
+		<string>Bumex inhibits the reabsorption of chloride and sodium in the thick ascending loop of Henley and distal tubule. It also increases the excretion of water, chloride, potassium, calcium, and magnesium In the proximal tubule.</string>
+		<key>Indications</key>
+		<string>Congestive heart failure, edema, renal/hepatic diseases, cirrhosis, impaired renal function. 
+
+Off label use: hypercalcemia, hypertension, ascites, oliguria in preterm neonates.</string>
+		<key>Contraindications</key>
+		<string>Absolute contraindications with hypersensitivities to thiazides and sulfonamides, anuria, and hepatic comas. 
+
+Use caution in patients with severe Hepatic disease, electrolyte deficiencies, diabetes, lactation, azotemia, jaundice neonates as Bumex potently displaces bilirubin. </string>
+		<key>AdverseEffects</key>
+		<string>Administer while monitoring. Can cause arrhythmias and hypotension after calcium channel blocker administration. 
+
+May cause dizziness, encephalopathy, headache, Stevens-Johnson syndrome, toxic epidermal necrolysis, dehydration, hypokalemia, hypokalemia, hypomagnesemia, hyponatremia, and metabolic alkalosis.</string>
+		<key>Onset</key>
+		<string>Rapid</string>
+		<key>Duration</key>
+		<string>4-6 hrs</string>
+		<key>HalfLife</key>
+		<string>60–90 min</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Well distributed.</string>
+		<key>Metabolism</key>
+		<string>Partially liver, 50%. Oxidation.</string>
+		<key>Excretion</key>
+		<string>Urine 81%, feces. Biliary 2%.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Calcium Salt</string>
+		<key>BrandName</key>
+		<string>Ca Chloride, Ca Gluconate</string>
+		<key>DrugClass</key>
+		<string>Mineral and electrolyte. </string>
+		<key>Dose</key>
+		<string>500 mg -1g, 10%</string>
+		<key>Mechanism</key>
+		<string>Calcium is essential for the nervous, skeletal and muscular systems. It is essential for maintaining cell membrane and capillary permeability - serving as an activator of nerve impulses, cardiac function, and blood coagulation. Stabilizes myocardial membranes associated with hyperkalemia.</string>
+		<key>Indications</key>
+		<string>Calcium Gluconate IV: 10% (0.45 mEq/mL), Calcium Chloride: IV 10% (1.36 mEq/mL). Used for the treatment of hypocalcemia (i.e., multiple blood transfusions). Known or suspected hyperkalemia (i.e., renal failure). Calcium channel blocker overdose, hydrofluoric acid burns. 
+
+Note: There is a three-fold difference between calcium gluconate, which contains 4.65 mEq Ca+/gram, and calcium chloride, which contains 13.6 mEq Ca+/gram. </string>
+		<key>Contraindications</key>
+		<string>Hypercalcemia, ventricular fibrillation, digitalis toxicity. Concurrently with other calcium supplements such as calcium acetate. Use with caution if known or suspected hyperphosphatemia, lactation, and pregnancy.</string>
+		<key>AdverseEffects</key>
+		<string>Do not mix with sodium bicarbonate - it will precipitate. Rapid IVP may cause vasodilation, a decrease in blood pressure, bradycardia, cardiac arrhythmias, syncope, and cardiac arrest, hypercalcemia, phlebitis. Local necrosis if extravasated. Lab changes: May increase serum pH, total and ionized calcium. May decrease serum phosphate, potassium.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>30-90 min</string>
+		<key>HalfLife</key>
+		<string>Unknown</string>
+		<key>Absorbtion</key>
+		<string>GI tract requires vitamin D.</string>
+		<key>Distribution</key>
+		<string>Readily enters ECF. Placenta and breast milk.</string>
+		<key>Metabolism</key>
+		<string>Hepatic.</string>
+		<key>Excretion</key>
+		<string>Mostly feces, 20% urine 50-300 mg/day.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Cisatracurium</string>
+		<key>BrandName</key>
+		<string>Nimbex</string>
+		<key>DrugClass</key>
+		<string>Non-depolarizing neuromuscular blockade. Cholinergic receptor antagonist a cis-isomer of atracurium.</string>
+		<key>Dose</key>
+		<string>1 to 2 mcg/kg/min</string>
+		<key>Mechanism</key>
+		<string>Blocks acetylcholine molecules on the motor and plate by binding to cholinergic receptors resulting in the neuromuscular blockade.</string>
+		<key>Indications</key>
+		<string>Used to facilitate endotracheal intubation and to maintain ongoing paralysis, and facilitate mechanical ventilation in adequately sedated patients.</string>
+		<key>Contraindications</key>
+		<string>An absolute contraindication is a hypersensitivity, use of the 10 mL multiple-dose vials in premature infants. Caution in patients with burns, trauma, children, benzyl alcohol hypersensitivity, electrolyte imbalances, and women who are breastfeeding.</string>
+		<key>AdverseEffects</key>
+		<string>ICU patients can have a prolonged recovery. May cause bronchospasms, bradycardia, flushing, hypotension, and rashes.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>35-45 min</string>
+		<key>HalfLife</key>
+		<string>22-29 min</string>
+		<key>Absorbtion</key>
+		<string>Poorly absorbed in GI tract.</string>
+		<key>Distribution</key>
+		<string>ECF, crosses placenta.</string>
+		<key>Metabolism</key>
+		<string>Hofmann elimination.</string>
+		<key>Excretion</key>
+		<string>Urine 95%, feces 4%.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Desmopressin</string>
+		<key>BrandName</key>
+		<string>DDAVP</string>
+		<key>DrugClass</key>
+		<string>Antidiuretic hormone.</string>
+		<key>Dose</key>
+		<string>0.3 mcg/kg IV</string>
+		<key>Mechanism</key>
+		<string>DDAVP is a naturally occurring agent of vasopressin that enhances the reabsorption of water in the collecting ducts of the kidneys - ultimately increasing urine osmolality and reducing urine output. 
+
+It also increases factor VIII activity and controls bleeding in certain types of von Willebrand’s disease or hemophilia. </string>
+		<key>Indications</key>
+		<string>Diabetes insipidus, Hemophilia A, Type I von Willebrand’s disease. </string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, moderate to severe renal impairment (Ccr &lt; 50%), hyponatremia, Type IIB von Willebrand&apos;s disease,  hemophilia B, hemophilia A with factor VIII levels &lt;5%. 
+
+Use caution in those patients with CAD, hypertension fluid/electrolyte imbalances,  OB, and lactation. </string>
+		<key>AdverseEffects</key>
+		<string>Seizures, dyspnea, hypertension, hypotension, tachycardia (large IV doses only), nausea, flushing, fluid overload, hyponatremia.</string>
+		<key>Onset</key>
+		<string>15-30 min IV</string>
+		<key>Duration</key>
+		<string>4-12 hrs</string>
+		<key>HalfLife</key>
+		<string>3.3-3.5 hrs.</string>
+		<key>Absorbtion</key>
+		<string>0.1% IV</string>
+		<key>Distribution</key>
+		<string>Enters breast milk</string>
+		<key>Metabolism</key>
+		<string>Unk.</string>
+		<key>Excretion</key>
+		<string>Unk.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Dexamethasone</string>
+		<key>BrandName</key>
+		<string>Decadron ®</string>
+		<key>DrugClass</key>
+		<string>Corticosteroid, glucocorticoid, anti-inflammatory agent.</string>
+		<key>Dose</key>
+		<string>10 mg IV, IM</string>
+		<key>Mechanism</key>
+		<string>Decadron suppresses inflammation and neutrophil migration of the normal immune response by reducing the production of inflammatory cytokines,  reversing increased capillary permeability, decreasing edema and fibrin deposition thereby suppressing overall inflammation. </string>
+		<key>Indications</key>
+		<string>Inflammation, allergies, neoplasms, cerebral edema, septic shock, collagen disorders, adrenocortical sufficiency, immunosuppression post organ transplant graft, management of acute spinal cord injuries, croup, airway edema and to facilitate with bronchopulmonary dysplasia post-extubation in neonates.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity or systemic fungal infections.  Use caution in patients with hypothyroidism, cirrhosis, adrenal suppression, stress.</string>
+		<key>AdverseEffects</key>
+		<string>Circulatory collapse, thrombophlebitis, embolisms, thrombocytopenia, seizures, bradycardia, cardiac failure, vasculitis, nausea, depression, euphoria, peptic ulcers, adrenal suppression. Labs: May cause hyperglycemia, and hypokalemia.</string>
+		<key>Onset</key>
+		<string>Rapid</string>
+		<key>Duration</key>
+		<string>Short</string>
+		<key>HalfLife</key>
+		<string>3-4.5 hrs</string>
+		<key>Absorbtion</key>
+		<string>Rapidly, GI tract.</string>
+		<key>Distribution</key>
+		<string>Widely distributed. </string>
+		<key>Metabolism</key>
+		<string>Hepatic.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Diazepam</string>
+		<key>BrandName</key>
+		<string>Valium ®</string>
+		<key>DrugClass</key>
+		<string>Benzodiazepine, anticonvulsant, sedative/hypnotic.</string>
+		<key>Dose</key>
+		<string>5-10 mg, IV/IM</string>
+		<key>Mechanism</key>
+		<string>Diazepam appears to act on the thalamus and hypothalamus depressing the CNS potentiating the effects of inhibitory neurotransmitters (GABA), an inhibitory neurotransmitter in the central nervous system. 
+
+Thus, diazepam raises the seizure threshold and exerts anxiolytic, sedative, muscle- relaxant, anticonvulsant and amnestic effects. </string>
+		<key>Indications</key>
+		<string>Management of status epilepticus, anxiety, acute alcohol withdrawal, and skeletal muscle spasms, seizures, post nerve agent exposure.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, comatose patiens, lactation, myasthenia gravis, drug abuse, coma, acute narrow-angle glaucoma, shock, or head injury induced CNS depression,  severe hepatic impairment, sleep apnea syndrome, &lt; 6mo of age. </string>
+		<key>AdverseEffects</key>
+		<string>Adverse reactions may include hypotension, tachycardia, dizziness, drowsiness, hypotension (IV) respiratory depression, confusion, nausea, and impairment.</string>
+		<key>Onset</key>
+		<string>1-5 min (IV)</string>
+		<key>Duration</key>
+		<string>15-60 min (IV)</string>
+		<key>HalfLife</key>
+		<string>20-95 hrs</string>
+		<key>Absorbtion</key>
+		<string>8 min IV.</string>
+		<key>Distribution</key>
+		<string>Crosses BBB, placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver extensively.</string>
+		<key>Excretion</key>
+		<string>Urine, breast milk.</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Diphenhydramine</string>
+		<key>BrandName</key>
+		<string>Benadryl ®</string>
+		<key>DrugClass</key>
+		<string>Antihistamine H1 blocker.</string>
+		<key>Dose</key>
+		<string>25-50 mg IVP</string>
+		<key>Mechanism</key>
+		<string>Benadryl decreases the allergic response by competitively antagonizing the effects of histamine on H1-receptors in the GI tract, uterus, large blood vessels, and bronchial muscle producing anticholinergic, antipruritic, antitussive, antiemetic, anti-dyskinetic, sedative effects. 
+
+Benadryl does not prevent the release of histamine or bind to or inactivate histamine. Significant CNS depressant and anticholinergic properties. </string>
+		<key>Indications</key>
+		<string>Allergic reaction, urticaria, infant colic, sedation (pediatric use), nasal allergies, dystonic reactions, anaphylaxis, vertigo, nystagmus, Parkinson&apos;s disease, contact dermatitis.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, nursing mothers, acute asthma attacks, lactation, lactation, alcohol intolerance (some liquid products). Caution in patients with severe liver disease, glaucoma hyperthyroidism, seizure disorders, prostatic hyperplasia, and peptic ulcer.</string>
+		<key>AdverseEffects</key>
+		<string>Dizziness, drowsiness, poor coordination, seizures, blurred vision, dilated pupils, dry nose, thrombocytopenia, hemolytic anemia, thick secretions, wheezing, anaphylaxis.</string>
+		<key>Onset</key>
+		<string>Immediate (IV)</string>
+		<key>Duration</key>
+		<string>4-8 hrs</string>
+		<key>HalfLife</key>
+		<string>1-7 hrs</string>
+		<key>Absorbtion</key>
+		<string>Completely absorbed (IV)</string>
+		<key>Distribution</key>
+		<string>Crosses the placenta, enters breast milk.</string>
+		<key>Metabolism</key>
+		<string>Extensively liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Diltiazem</string>
+		<key>BrandName</key>
+		<string>Cardizem ®</string>
+		<key>DrugClass</key>
+		<string>Class IV antiarrythmic, benzothiazepine calcium channel blocker.</string>
+		<key>Dose</key>
+		<string>0.25 - 0.35 mg/kg</string>
+		<key>Mechanism</key>
+		<string>Decreases heart rate and blood pressure by inhibiting calcium ion influxes across the cell membrane during cardiac depolarization. Produces relaxation of coronary vascular smooth muscle. Dilates coronary arteries, peripheral vessels; reduces myocardial oxygen consumption and slows SA/AV node conduction times through its negative inotropic, chronotropic and dromotropic effects.</string>
+		<key>Indications</key>
+		<string>Atrial fibrillation and atrial flutter. Hypertension, angina pectoris, and Prinzmetal’s angina. Given after adenosine to terminate stable narrow-complex refractory PSVT. Off-label use: Raynaud&apos;s phenomenon and hyperthyroidism.</string>
+		<key>Contraindications</key>
+		<string>Contraindicated in hypotension, acute MI, pulmonary congestion, sinus rhythm, wide complex tachycardia of unknown origin, atrial fibrillation or atrial flutter associated with suspected WPW. AV block without a pacemaker; known low output state (cardiomyopathy with a low ejection fraction), recent ventricular tachycardia, frequent ventricular ectopy and or known allergy. </string>
+		<key>AdverseEffects</key>
+		<string>Hypotension due to peripheral vasodilation. Dysrhythmias, hyperglycemia, leukopenia, bradycardia, reflex tachycardia, dizziness, flushing, CHF, and heart blocks. </string>
+		<key>Onset</key>
+		<string>2-5 min</string>
+		<key>Duration</key>
+		<string>1-3 hrs (IV), after gtt. up to 10 hrs</string>
+		<key>HalfLife</key>
+		<string>3.5-9 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Protein binding: 70% to 80%.</string>
+		<key>Metabolism</key>
+		<string>Hepatic (CYP3A4).</string>
+		<key>Excretion</key>
+		<string>Urine 2-4% &amp; feces. Not dialyzable.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Dopamine</string>
+		<key>BrandName</key>
+		<string>Intropin ®</string>
+		<key>DrugClass</key>
+		<string>Sympathomimetic, vasopressor, inotrope.</string>
+		<key>Dose</key>
+		<string>2-20 mcg/kg/min</string>
+		<key>Mechanism</key>
+		<string>Dopamine is a naturally occurring catecholamine that increases blood pressure, cardiac output, mesenteric, and cerebral vasodilatation by stimulating dopaminergic receptors. 
+
+Exerts inotropic effects on  β1 and α1 adrenergic receptors, which increases the heart rate, blood flow, myocardial contractility, and stroke volume. Doses greater than 10 mcg/kg/min stimulate alpha-adrenergic receptors and may cause renal vasoconstriction.</string>
+		<key>Indications</key>
+		<string>Adjunct to conventional measures to improve blood pressure, cardiac output, urine output in the presence of shock (not secondary to hypovolemia) unresponsive to fluid boluses and heart failure. Increase renal perfusion (low doses).</string>
+		<key>Contraindications</key>
+		<string>Tachydysrhythmias, bisulfites, ventricular fibrillation, hypovolemic shock, and pheochromocytoma. 
+
+Use caution in hypovolemia, MI, occlusive vascular diseases, geriatric patients may be more sensitive to adverse effects, pregnancy, and lactating mothers.</string>
+		<key>AdverseEffects</key>
+		<string>Adverse reactions may include nausea, extravasation, vomiting, tachycardia, anginal pain, hypertension, headache, palpitations, ventricular dysrhythmias and ectopy, dyspnea, nausea, vomiting, piloerection, anxiety.</string>
+		<key>Onset</key>
+		<string>2-5 min</string>
+		<key>Duration</key>
+		<string>&lt; 10 min</string>
+		<key>HalfLife</key>
+		<string>2 min</string>
+		<key>Absorbtion</key>
+		<string>Complete absorbed.</string>
+		<key>Distribution</key>
+		<string>Well distributed.</string>
+		<key>Metabolism</key>
+		<string>Liver extensively.</string>
+		<key>Excretion</key>
+		<string>Urine and plasma.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Epinephrine</string>
+		<key>BrandName</key>
+		<string>Adrenaline ®</string>
+		<key>DrugClass</key>
+		<string>α / β- agonist, endogenous catecholamine, sympathomimetic, vasopressor, and bronchodilator.</string>
+		<key>Dose</key>
+		<string>1.0 mg IV</string>
+		<key>Mechanism</key>
+		<string>Epinephrine non-selectively antagonizes α and β adrenergic receptors resulting in an increase in the systemic vascular resistance (SVR), systemic arterial pressure, heart rate, contractility, myocardial oxygen demand, and cardiac automaticity. Large doses may produce vasoconstriction of skeletal and vascular smooth muscle; smaller doses can cause vasodilation via beta 2- receptors.</string>
+		<key>Indications</key>
+		<string>Cardiac arrests, ACLS, PALS,  hemodynamic instability not corrected by fluids or other vasoactive agents, bradycardia not responsive to first-line agents and pacing (adult), neonatal heart rate ≤ 60 BPM. 
+
+Bradycardia in cardiac transplanted patients, reversible airway disease due to asthma or COPD, anaphylactic shock, hypotension associated with septic shock,  upper airway obstruction, croup and as a push dose pressor. 
+
+For push dose, see drip section. </string>
+		<key>Contraindications</key>
+		<string>There are no absolute contraindications to the use of injectable epinephrine, especially during life-threatening events. 
+
+Relatively contraindicated in sulfate/sulfite allergy (additive in Epinephrine), caution in patients receiving TCA&apos;s or cardiovascular disease. No contraindications during a life-threatening event. 
+
+Due to vasoconstriction, use caution in patients with pulmonary edema, extravasation injuries, and renal failure.</string>
+		<key>AdverseEffects</key>
+		<string>Prolonged/excessive use may result in metabolic acidosis due to increased serum lactid acid. Tachycardia, restlessness, weakness,  local tissue necrosis (extravasation), hypertension, headache, palpitations, ventricular dysrhythmias, ectopy, dyspnea, nausea, vomiting, piloerection, anxiety, hypertension, and angina.</string>
+		<key>Onset</key>
+		<string>Rapid (IV), SQ 3-5 min</string>
+		<key>Duration</key>
+		<string>1-4 hrs</string>
+		<key>HalfLife</key>
+		<string>Unknown.</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Crosses placenta and breast milk, not the BBB.</string>
+		<key>Metabolism</key>
+		<string>Hepatic.</string>
+		<key>Excretion</key>
+		<string>Urine, breastmilk.</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Eptifibatide</string>
+		<key>BrandName</key>
+		<string>Integrilin ®</string>
+		<key>DrugClass</key>
+		<string>Antiplatelet agent, glycoprotein IIB / IIIA inhibitor. </string>
+		<key>Dose</key>
+		<string>180 mcg/kg</string>
+		<key>Mechanism</key>
+		<string>Decreases thrombus formation by reversibly preventing fibrinogen and von Willebrand factor from binding to the glycoprotein IIB/IIIA receptor inhibiting platelet aggregation.</string>
+		<key>Indications</key>
+		<string>Acute coronary syndrome (ACS) including those with percutaneous coronary intervention PCI. Unstable angina or non-Q-wave myocardial infarction.  
+
+Dosing, 180 mcg/kg I.V. bolus over 1 to 2 minutes, followed by a continuous infusion of 2 mcg/kg/minute for up to 72 hours. </string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, acute internal bleeding, severe hypertension, pmhx of a hemorrhagic stroke within one month, major surgery in the prev six weeks. 
+
+Concurrent use of another glycoprotein IIb/IIIa receptor antagonists, platelet count &lt;100,000 mm3, and hemodialysis.</string>
+		<key>AdverseEffects</key>
+		<string>Headache, dizziness, asthenia, anaphylaxis, syncope, hypotension, nausea, diarrhea, constipation, hematuria, bleeding, thrombocytopenia, and flushing. </string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>4 to 8 hrs p discontinuation.</string>
+		<key>HalfLife</key>
+		<string>2.5 hrs</string>
+		<key>Absorbtion</key>
+		<string>Unknown.</string>
+		<key>Distribution</key>
+		<string>Unknown.</string>
+		<key>Metabolism</key>
+		<string>Unknown.</string>
+		<key>Excretion</key>
+		<string>Urine 50%.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Etomidate</string>
+		<key>BrandName</key>
+		<string>Amidate ®</string>
+		<key>DrugClass</key>
+		<string>Anesthetic &amp; hypnotic without analgesic properties.</string>
+		<key>Dose</key>
+		<string>0.3 mg/kg</string>
+		<key>Mechanism</key>
+		<string>Etomidate is an ultra-short-acting nonbarbiturate that appears to act similar to GABA by depressing the activity of the brain stem reticular activating system (RAS), reducing subcortical inhibition and inducing sleep. 
+
+Etomidate will induce apnea, cause a slight decrease in intracranial pressure - moderate increase in intraocular pressure, however, will not cause a histamine release or significant hemodynamic changes. </string>
+		<key>Indications</key>
+		<string>Induction of general anesthesia and sedation of critically ill patients prior to  intubation or cardioversion. Off-label: Cushings syndrome.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity. Etomidate is not be used as a drip as prolonged infusions suppress endogenous cortisol and aldosterone. </string>
+		<key>AdverseEffects</key>
+		<string>Orofacial myoclonus is common in patients who cannot be intubated with etomidate. Masseter spasms, and apnea. </string>
+		<key>Onset</key>
+		<string>10 to 20 sec</string>
+		<key>Duration</key>
+		<string>4 to 10 min</string>
+		<key>HalfLife</key>
+		<string>75 min</string>
+		<key>Absorbtion</key>
+		<string>Brain, Protein Binding 76.5%.</string>
+		<key>Distribution</key>
+		<string>Rapidly distributed.</string>
+		<key>Metabolism</key>
+		<string>Blood, liver extensively.</string>
+		<key>Excretion</key>
+		<string>Urine 75%.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Fentanyl Citrate</string>
+		<key>BrandName</key>
+		<string>Sublimaze ®</string>
+		<key>DrugClass</key>
+		<string>Potent synthetic narcotic opioid analgesic.</string>
+		<key>Dose</key>
+		<string>1-2 mcg/kg</string>
+		<key>Mechanism</key>
+		<string>Fentanyl binds to opioid receptors in the central nervous system producing CNS depression and analgesia.</string>
+		<key>Indications</key>
+		<string>Acute pain, Post Intubation Sedation and Analgesia (PISA). Premedication during RSI.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity.</string>
+		<key>AdverseEffects</key>
+		<string>Nausea, dry mouth, somnolence, respiratory depression, weakness and dizziness. In infants and neonates, observe for chest wall rigidity after administration. Narcan and paralytics have been used to treat chest wall rigidity from Fentanyl successfully. </string>
+		<key>Onset</key>
+		<string>1-2 min</string>
+		<key>Duration</key>
+		<string>0.5-1 hr</string>
+		<key>HalfLife</key>
+		<string>2-4 hr</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Unknown.</string>
+		<key>Metabolism</key>
+		<string>Mostly liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Fosphenytoin Sodium</string>
+		<key>BrandName</key>
+		<string>Cerebyx ®</string>
+		<key>DrugClass</key>
+		<string>Anticonvulsant, antiepileptic.</string>
+		<key>Dose</key>
+		<string>15 to 20 mg PE/kg</string>
+		<key>Mechanism</key>
+		<string>Fosphenytoin is a prodrug that is rapidly converted to phenytoin and exerts anticonvulsant effects. During the generation of nerve impulses, phenytoin works by modulating the influx of sodium ions in the motor cortex and enhancing sodium-potassium ATPase activity.  </string>
+		<key>Indications</key>
+		<string>Status epilepticus, generalized tonic clonic seizures when the use of phenytoin is not feasible. PE = Phenytoin equivalents. </string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, prior hepatotoxicity to phenytoin or fosphenytoin, hypersensitivity to any component of the formulation, heart blocks, Adams-Stokes syndrome, pregnancy, use of delavirdine and sinus bradycardia.</string>
+		<key>AdverseEffects</key>
+		<string>Burning, itching, and paraesthesia in the groin area (following IV admin). Asystole, ventricular fibrillation, hypotension, bradycardia, and heart blocks.</string>
+		<key>Onset</key>
+		<string>15-45 min</string>
+		<key>Duration</key>
+		<string>Up to 24 hrs</string>
+		<key>HalfLife</key>
+		<string>12.0 to 29 hrs</string>
+		<key>Absorbtion</key>
+		<string>Completely absorbed.</string>
+		<key>Distribution</key>
+		<string>CSF, other fluids.</string>
+		<key>Metabolism</key>
+		<string>Liver CYP2C9, CYP2C19.</string>
+		<key>Excretion</key>
+		<string>Urine as inactive metabolites.</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Furosemide</string>
+		<key>BrandName</key>
+		<string>Lasix ®</string>
+		<key>DrugClass</key>
+		<string>Loop diuretic.</string>
+		<key>Dose</key>
+		<string>20 to 80 mg IV</string>
+		<key>Mechanism</key>
+		<string>Inhibits the reabsorption of sodium and chloride in the proximal tubule and descending loop of Henle, causing the excretion of sodium, calcium, magnesium, chloride, water and some potassium. Increases the excretion of potassium in the distal tubule of the kidney subsequently decreasing blood pressure by binding to NO causing vasodilation, achieving diuresis by mobilizing excess fluids in the presence of edema. </string>
+		<key>Indications</key>
+		<string>Acute pulmonary edema, congestive heart failure, diuresis, and fluid retention.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, anuria, hypovolemia, dehydration and electrolyte depletion.</string>
+		<key>AdverseEffects</key>
+		<string>Electrolyte imbalances especially hypokalemia, hypotension, dry mouth, nausea and vomiting, dizziness, tachycardia, orthostatic hypotension, ototoxicity when administered with certain antibiotics.</string>
+		<key>Onset</key>
+		<string>10-30 min</string>
+		<key>Duration</key>
+		<string>2 hrs</string>
+		<key>HalfLife</key>
+		<string>30-60 min</string>
+		<key>Absorbtion</key>
+		<string>60-67%</string>
+		<key>Distribution</key>
+		<string>Breast milk, crosses placenta.</string>
+		<key>Metabolism</key>
+		<string>Minimally, liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Glucagon</string>
+		<key>BrandName</key>
+		<string>GlucaGen</string>
+		<key>DrugClass</key>
+		<string>Pancreatic peptide hormone, beta blocker and calcium channnel blocker antidote.</string>
+		<key>Dose</key>
+		<string>0.5-1.0 mg IV</string>
+		<key>Mechanism</key>
+		<string>Glucagon increases blood glucose levels by causing the liver to convert stored glycogen into glucose and releasing it into the bloodstream. 
+
+Glucagon also relaxes the muscles of the stomach, duodenum, small bowel, and colon briefly inhibiting movement. Also exhibits chronotropic and inotropic effects.</string>
+		<key>Indications</key>
+		<string>Hypoglycemia, antidote: beta blocker overdoses (50 – 150 mcg (0.05 – 0.15 mg)/kg, followed by 1 – 5 mg/hr infusion.), calcium channel blockers — 2 mg and for relaxation of GI smooth muscle. Pediatrics: 0.5 mg or 0.02 – 0.03 mg/kg; may be repeated at 15 min if necessary.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity to glucagon, lactose, pheochromocytoma (because of the phenol and glycerine contained) and insulinoma - not compatible with normal saline.</string>
+		<key>AdverseEffects</key>
+		<string>Dizziness, hyperglycemia, trouble breathing, nausea and vomiting.</string>
+		<key>Onset</key>
+		<string>5-20 min (IV); 30-45 min (IM)</string>
+		<key>Duration</key>
+		<string>30 min</string>
+		<key>HalfLife</key>
+		<string>8-18 min</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Unknown.</string>
+		<key>Metabolism</key>
+		<string>Plasma and liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Haloperidol</string>
+		<key>BrandName</key>
+		<string>Haldol ®</string>
+		<key>DrugClass</key>
+		<string>Antipsychotic, neuroleptic.</string>
+		<key>Dose</key>
+		<string>2 to 5 mg IM</string>
+		<key>Mechanism</key>
+		<string>The direct actions of Haldol are unknown. However, Haldol produces calmness and reduces aggressiveness with the disappearance of hallucinations and delusions by depressing the cerebral cortex, hypothalamus and limbic system which controls activity and aggression. Blocks postsynaptic dopamine (D1 and D2 receptors).</string>
+		<key>Indications</key>
+		<string>Psychotic disorders, control of tics, schizophrenia, nausea/vomiting and chemotherapy.</string>
+		<key>Contraindications</key>
+		<string>Haldol is contraindicated in the presence of other sedatives (except benzodiazepines), cardiac disease and Parkinson&apos;s disease. 
+
+Contraindicated in patients with known allergy to neuroleptic antipsychotic medications such as Thorazine, Droperidol, Prolixin, and Mellaril.</string>
+		<key>AdverseEffects</key>
+		<string>Anxiety, drowsiness, depression, anorexia, transient tachycardia, postural hypotension, leukopenia; anticholinergic side effects. Potentially Fatal: Neuroleptic malignant syndrome.</string>
+		<key>Onset</key>
+		<string>20-30 min</string>
+		<key>Duration</key>
+		<string>4-8 hrs</string>
+		<key>HalfLife</key>
+		<string>21-24 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed, IM.</string>
+		<key>Distribution</key>
+		<string>Concentrates in liver. Breast milk, placenta.</string>
+		<key>Metabolism</key>
+		<string>Mostly, liver.</string>
+		<key>Excretion</key>
+		<string>Urine and feces.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Hydralazine</string>
+		<key>BrandName</key>
+		<string>Apresoline ®</string>
+		<key>DrugClass</key>
+		<string>Antihypertensive, vasodilator.</string>
+		<key>Dose</key>
+		<string>5-40 mg IV</string>
+		<key>Mechanism</key>
+		<string>Hydralazine decreases blood pressure and reduces cardiac afterload by vasodilating peripheral arterioles in the smooth muscle by direct relaxation. Also, hydralazine indirectly increases renin secretion, ultimately leading to sodium reabsorption.</string>
+		<key>Indications</key>
+		<string>Moderate to severe hypertension and congestive heart failure.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, coronary artery disease (CAD), rheumatic heart disease affecting the mitral valve and products that contain tartrazine.</string>
+		<key>AdverseEffects</key>
+		<string>Reflex tachycardia, dizziness, headache, tremors, orthostatic hypotension, sodium retention, palpitations, drug-induced lupus syndrome, nausea, and vomiting.</string>
+		<key>Onset</key>
+		<string>5-20 min</string>
+		<key>Duration</key>
+		<string>2-6 hrs</string>
+		<key>HalfLife</key>
+		<string>2-8 hrs</string>
+		<key>Absorbtion</key>
+		<string>Rapidly absorbed. </string>
+		<key>Distribution</key>
+		<string>Widely, crosses placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>GI mucosa and liver by    N-acetyltransferase.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Hydromorphone</string>
+		<key>BrandName</key>
+		<string>Dilaudid ®</string>
+		<key>DrugClass</key>
+		<string>Opioid analgesic agonist.</string>
+		<key>Dose</key>
+		<string>0.5-2.0 mg </string>
+		<key>Mechanism</key>
+		<string>Dilaudid decreases moderate to severe pain by binding to opiate receptors in the central nervous system, depressing pain impulse transmissions at the spinal cord level by interacting with opioid receptors.</string>
+		<key>Indications</key>
+		<string>Moderate to severe pain, post intubation and ventilator management.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, opiate addiction, &amp; status asthmaticus.
+
+Use extreme caution with MAO inhibitors - may produce severe, unpredictable reactions. Recommended to reduce dose to 25% of the usual dose and d/c MAO inhibitors two weeks before Dilaudid administration.</string>
+		<key>AdverseEffects</key>
+		<string>Sedation, confusion, respiratory depression, euphoria, bradycardia, and hypotension.</string>
+		<key>Onset</key>
+		<string>10-15 min</string>
+		<key>Duration</key>
+		<string>2-3 hrs</string>
+		<key>HalfLife</key>
+		<string>2-4 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Widely, crosses placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver, extensively.</string>
+		<key>Excretion</key>
+		<string>Urine 75%, feces 1%.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Ipratropium Bromide</string>
+		<key>BrandName</key>
+		<string>Atrovent ®</string>
+		<key>DrugClass</key>
+		<string>Bronchodilator, anticholinergic.</string>
+		<key>Dose</key>
+		<string>0.5 mg via nebulizer</string>
+		<key>Mechanism</key>
+		<string>Atrovent decrease mucus production in bronchial smooth muscle and causes mild bronchodilation by inhibiting cholinergic receptors in bronchial smooth muscle. </string>
+		<key>Indications</key>
+		<string>Asthma, emphysema, bronchitis &amp; COPD. Can combine with albuterol. Pediatric Dose: 25 mcg/kg via nebulizer.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity or allergy to atropine and atropine like compounds. Caution: Do use as a part of continuous nebulizer therapy.</string>
+		<key>AdverseEffects</key>
+		<string>Immediate hypersensitivity reactions (urticaria, angioedema), dry mouth, urinary retention, headache, nausea, constipation, paradoxical bronchospasm, acute angle-closure glaucoma, nasal dryness, and epistaxis.</string>
+		<key>Onset</key>
+		<string>1-3 min</string>
+		<key>Duration</key>
+		<string>4-6 hrs</string>
+		<key>HalfLife</key>
+		<string>2 hrs</string>
+		<key>Absorbtion</key>
+		<string>Poorly absorbed from the GI tract.</string>
+		<key>Distribution</key>
+		<string>15% to lower airways.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Ketamine</string>
+		<key>BrandName</key>
+		<string>Ketalar ®</string>
+		<key>DrugClass</key>
+		<string>Dissociative and general anesthetic. </string>
+		<key>Dose</key>
+		<string>1-2 mg/kg IV</string>
+		<key>Mechanism</key>
+		<string>Unlike other described general anesthetic agents, ketamine doesn&apos;t interact with GABA receptors. Instead, noncompetitive NMDA receptor antagonist that blocks glutamate. 
+
+Low (subanesthetic) doses produce analgesia and modulate central sensitization, hyperalgesia, and opioid tolerance. Reduces polysynaptic spinal reflexes and produces a dissociative effect on the surrounding environment. </string>
+		<key>Indications</key>
+		<string>Procedural sedation, RSI, adjunct in pain management, depressive episodes in bi-polar disorders, status epilepticus (refractory).
+
+Additional dose recommendations:
+Pediatric induction: 0.5-2mg/kg IV/IO.
+Behavioral emergencies: 4mg/kg IM or 2 mg/kg. 
+For pain management: 0.2 – 0.5 mg/kg. IM/IV/IO/IN (typically 25 mg).
+Bronchospasm: 0.75 mg/kg IV.</string>
+		<key>Contraindications</key>
+		<string>Absolutely contraindicated in known hypersensitivity to ketamine — also, conditions where there are significant elevations in the patient&apos;s blood pressure.</string>
+		<key>AdverseEffects</key>
+		<string>Hypertension, tachycardia, emergence reactions, bronchodilation, increased cardiac output, may cause increased ICP, vivid imagery/ hallucinations, tonic-clonic movements. </string>
+		<key>Onset</key>
+		<string>3-40 sec IV</string>
+		<key>Duration</key>
+		<string>5-10 min</string>
+		<key>HalfLife</key>
+		<string>2-3 hrs</string>
+		<key>Absorbtion</key>
+		<string>Intramuscular 90-93%</string>
+		<key>Distribution</key>
+		<string>Protein binding 47%.</string>
+		<key>Metabolism</key>
+		<string>Liver, extensively. </string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>X</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Labetalol</string>
+		<key>BrandName</key>
+		<string>Trandate ®</string>
+		<key>DrugClass</key>
+		<string>Antihypertensive, β-Blocker with α-blocking activity.</string>
+		<key>Dose</key>
+		<string>10-20 mg</string>
+		<key>Mechanism</key>
+		<string>Non-selective β1,2-blocker, negative chronotrope. Labetalol has additional mild α-1-adrenergic blocking properties. The α to β ratio (IV) is estimated to be 1:7.</string>
+		<key>Indications</key>
+		<string>Hypertensive crisis, BP management during treatment of aneurysm or intracranial
+hemorrhage.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, uncompensated heart failure, pulmonary edema, heart blocks, bradycardia, valvular heart disease, cardiogenic shock, hypotension, and bradyarrhythmias.</string>
+		<key>AdverseEffects</key>
+		<string>Heart failure, hyperkalemia, hepatotoxicity, bronchospasms, bradycardia, and dysrhythmias.</string>
+		<key>Onset</key>
+		<string>2-5 min</string>
+		<key>Duration</key>
+		<string>16-18 hrs</string>
+		<key>HalfLife</key>
+		<string>3-8 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>CNS, crossed placenta, protein binding 50%.</string>
+		<key>Metabolism</key>
+		<string>Liver, extensively.</string>
+		<key>Excretion</key>
+		<string>Urine, breast milk and bile.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Levothyroxine</string>
+		<key>BrandName</key>
+		<string>Synthroid, T4</string>
+		<key>DrugClass</key>
+		<string>Hormone, thyroid product.</string>
+		<key>Dose</key>
+		<string>5-50 mcg/hr</string>
+		<key>Mechanism</key>
+		<string>T4 (Thyroxine) is used in brain death donors to support vascular tone without excessive pressor use. T4 is an endogenous hormone secreted by the thyroid gland. 
+
+T4 is converted to its active metabolite, L-triiodothyronine (T3) in the presence of glucose metabolism and serves to increase the basal metabolic rate, heart rate, gluconeogenesis, protein synthesis, blood pressure and body temperature in the donor - generally, within 30-60 minutes. 
+
+A drip should be preceded by a 20 mcg bolus of T4 (reconstituted with 5cc NS IVP over 3 min), 1g Solu-Medrol, 20 units of insulin and 1 amp of D50. T4  should never be used before brain death declaration. </string>
+		<key>Indications</key>
+		<string>Off-label: Brain dead donors for transplant. </string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity is not an absolute contraindication. Hyperthyroidism.</string>
+		<key>AdverseEffects</key>
+		<string>Hypomagnesemia, hypokalemia, dehydration, and hyperthermia.</string>
+		<key>Onset</key>
+		<string>6-8 hrs</string>
+		<key>Duration</key>
+		<string>Unknown.</string>
+		<key>HalfLife</key>
+		<string>6-7 days</string>
+		<key>Absorbtion</key>
+		<string>Variable, GI tract 40-80%.</string>
+		<key>Distribution</key>
+		<string>Tissues. Protein binding 99%.</string>
+		<key>Metabolism</key>
+		<string>Liver</string>
+		<key>Excretion</key>
+		<string>Feces, bile.</string>
+		<key>PregnancyClass</key>
+		<string>A</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Lidocaine</string>
+		<key>BrandName</key>
+		<string>Xylocaine ®</string>
+		<key>DrugClass</key>
+		<string>Class 1B Antiarrythmic.</string>
+		<key>Dose</key>
+		<string>1-1.5 mg/kg</string>
+		<key>Mechanism</key>
+		<string>Suppresses automaticity and depolarization of the ventricles during diastole by modifying the flux of sodium ion channels in the myocardium. Thus, controlling ventricular arrhythmias. </string>
+		<key>Indications</key>
+		<string>Ventricular arrhythmias such as ventricular tachycardia, ventricular fibrillation.</string>
+		<key>Contraindications</key>
+		<string>Stokes-Adams syndrome, heart block, intraventricular conduction delay and bundle branch block, known sensitivity, bradycardia. Absolute contraindication in Lidocaine allergy.</string>
+		<key>AdverseEffects</key>
+		<string>Hypotension, parasthesia, dizziness, slurred speech, seizure, ataxia, and confusion.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>10-20 min</string>
+		<key>HalfLife</key>
+		<string>7-120 min</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Crossed BBB, placenta &amp; breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Lorazepam</string>
+		<key>BrandName</key>
+		<string>Ativan ®</string>
+		<key>DrugClass</key>
+		<string>Benzodiazepine, sedative/hypnotic.</string>
+		<key>Dose</key>
+		<string>0.5–2 mg</string>
+		<key>Mechanism</key>
+		<string>Selectively binds to the GABA receptor causing sedation, muscle relaxation anxiety reduction and increase the seizure threshold.</string>
+		<key>Indications</key>
+		<string>Seizures, anxiety, muscle spasms, and procedural sedation. Off-label:  Insomnia, panic disorder, as an adjunct with acute mania or acute psychosis.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, hypotension. Use caution in those with severe hepatic/renal/pulmonary impairment, myasthenia gravis, depression, psychosis, drug or substance abuse.</string>
+		<key>AdverseEffects</key>
+		<string>Hypotension, drowsiness, nausea/vomiting, amnesia, decreased respiratory rate, decreased level of consciousness, and venous irritation.</string>
+		<key>Onset</key>
+		<string>2-3 min</string>
+		<key>Duration</key>
+		<string>9-12 hrs</string>
+		<key>HalfLife</key>
+		<string>10-73 hrs </string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Crossed BBB, placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver, extensively.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Magnesium Sulfate</string>
+		<key>BrandName</key>
+		<string>MgS04</string>
+		<key>DrugClass</key>
+		<string>Mineral and electrolyte.</string>
+		<key>Dose</key>
+		<string>1-4 gms</string>
+		<key>Mechanism</key>
+		<string>Magnesium effects various electrolyte and enzyme pathways in a variety of cell types including the myocardium, bronchial tree, skeletal and smooth muscle by reducing the release of acetylcholine at the neuromuscular junction reducing muscle contractions and promoting muscle relaxation.</string>
+		<key>Indications</key>
+		<string>Treatment or prevention of hypomagnesemia, status asthmaticus, pre-eclampsia, eclampsia, Torsades de Pointes, refractory ventricular tachycardia and ventricular fibrillation and acute nephritis.</string>
+		<key>Contraindications</key>
+		<string>Hypermagnesemia, hypocalcemia, anuria and heart blocks. 
+
+OB: Avoid using for more than 5 – 7 days for preterm labor (may risk of hypocalcemia and bone changes in newborn). 
+
+Avoid continuous infusions use during active labor or within two hr of delivery due to the potential for magnesium toxicity in newborns.</string>
+		<key>AdverseEffects</key>
+		<string>Flushing, loss of deep tendon reflexes, nausea and vomiting, hypotension, respiratory depression,  CNS depression. Side effects, especially hypotension, are related to the rate of infusion. Consider a slower loading dose or lower total dose if severe side effects occur.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>30 min</string>
+		<key>HalfLife</key>
+		<string>Unknown.</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Crosses placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Unknown.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Mannitol</string>
+		<key>BrandName</key>
+		<string>Osmitrol</string>
+		<key>DrugClass</key>
+		<string>Osmotic diuretic.</string>
+		<key>Dose</key>
+		<string>50-100 gms</string>
+		<key>Mechanism</key>
+		<string>Mannitol mobilizes excess fluid in oliguric renal failure or edema, reduces ICP and IOP, increases urinary excretion of toxic materials by increasing the osmotic pressure of the glomerular filtrate, thereby inhibiting reabsorption of water and electrolytes. Causes excretion of H20, Na+, K+, Cl-, Ca2+, Ph04, Mg+, urea, and uric acid. </string>
+		<key>Indications</key>
+		<string>Increased ICP or intraocular pressure, acute renal failure, edema, &amp; toxic overdose. </string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity mannitol, anuria; dehydration; active intracranial bleeding, severe pulmonary edema or pulmonary congestion. 
+
+Use caution in OB patients and lactating mothers.</string>
+		<key>AdverseEffects</key>
+		<string>Transient volume expansion, pulmonary edema, tachycardia, renal failure, dehydration, hyperkalemia, hypernatremia, hypokalemia, and hyponatremia.</string>
+		<key>Onset</key>
+		<string>30-60 min</string>
+		<key>Duration</key>
+		<string>6-8 hrs</string>
+		<key>HalfLife</key>
+		<string>100 min</string>
+		<key>Absorbtion</key>
+		<string>Completely absorbed.</string>
+		<key>Distribution</key>
+		<string>Confined to the extracellular space.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Methylprednisolone</string>
+		<key>BrandName</key>
+		<string>Solu-Medrol ®</string>
+		<key>DrugClass</key>
+		<string>Adrenal glucocorticoid, corticosteroid.</string>
+		<key>Dose</key>
+		<string>125 mg</string>
+		<key>Mechanism</key>
+		<string>Solu-Medrol suppresses inflammation and immune response, regulating gene expression by binding to receptors in the nucleus-modifying transcription at the cellular level. 
+
+These effects control potent mediators of inflammation such as prostaglandins and leukotrienes which inhibit the release of arachidonic acid, thus, suppressing inflammation by decreasing capillary permeability. </string>
+		<key>Indications</key>
+		<string>Asthma, alopecia, Addison&apos;s disease, ARDS, acute interstitial nephritis, allergic reaction, anaphylaxis, angioedema, COPD, emphysema, bronchitis, adrenal insufficiency, pulmonary edema, SARS, lupus, autoimmune disorders, and spinal cord injury. 
+
+Pediatric Dose:  2 mg/kg.</string>
+		<key>Contraindications</key>
+		<string>Active untreated infections, some forms of meningitis, lactation, Cushing&apos;s syndrome, and uncontrolled hyperglycemia.</string>
+		<key>AdverseEffects</key>
+		<string>Sodium retention, peripheral edema, immunosuppression, peptic ulcers, thrombocytopenia, hypertension, hyperglycemia, increased intracranial pressure (in children only), anxiety, and tremors.
+
+Monitor blood glucose levels and potassium.</string>
+		<key>Onset</key>
+		<string>1 hr</string>
+		<key>Duration</key>
+		<string>1-5 wks</string>
+		<key>HalfLife</key>
+		<string>1.9 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Widely distributed.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Metoprolol</string>
+		<key>BrandName</key>
+		<string>Lopressor ®</string>
+		<key>DrugClass</key>
+		<string>Beta Blocker.</string>
+		<key>Dose</key>
+		<string>5 mg</string>
+		<key>Mechanism</key>
+		<string>Lopressor selectively blocks β-1 adrenergic receptors located in the cardiac muscle with little or no effect on block β-2 adrenergic receptors (pulmonary, vascular, uterine). Lopressor antagonizes catecholamine-induced increases in heart rate, contractility, and blood pressure which overall reduces myocardial oxygen requirements, suppresses renin production, and reduces systemic outflow.</string>
+		<key>Indications</key>
+		<string>Angina, hypertension, myocardial infarction and SVT.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity to metoprolol, or other beta-blockers, high degree heart blocks, congestive heart failure, pulmonary edema, cardiogenic shock, myocardial infarction, bradycardia, bronchospasms, and thyrotoxicosis.</string>
+		<key>AdverseEffects</key>
+		<string>Hypotension, bradycardia, pulmonary edema, heart blocks, cardiac failure, dizziness, depression, confusion, bronchospasms, and dyspnea.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>5-8 hrs</string>
+		<key>HalfLife</key>
+		<string>3-7 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Crosses BBB, placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Midazolam</string>
+		<key>BrandName</key>
+		<string>Versed ®</string>
+		<key>DrugClass</key>
+		<string>Benzodiazepine, sedative / hypnotic. </string>
+		<key>Dose</key>
+		<string>0.05-0.1 mg/kg</string>
+		<key>Mechanism</key>
+		<string>Potentiates GABA by binding to specific stereospecific benzodiazepine receptors on the postsynaptic GABA neuron at different sites within the central nervous system. Versed also exerts sedative, hypnotic, muscle relaxant, anxiolytic and anticonvulsant characteristics.</string>
+		<key>Indications</key>
+		<string>Seizures, preoperative/procedural sedation, anxiolysis,  intubation, conscious sedation as an adjunct to cardioversion, chemical restraint, acute coronary syndromes believed to be under the influence of cocaine.
+
+Typical adult dose: 2-4 mg.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, hyportension, glaucoma and coma.</string>
+		<key>AdverseEffects</key>
+		<string>Amnesia, decreased level of consciousness, bradycardia, respiratory depression, apnea, cardiac arrest, laryngeal spasms, rashes, phlebitis, nausea, and vomiting.</string>
+		<key>Onset</key>
+		<string>1-5 min</string>
+		<key>Duration</key>
+		<string>2-6 hrs</string>
+		<key>HalfLife</key>
+		<string>2-17 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Crosses BBB, placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine, breast milk.</string>
+		<key>PregnancyClass</key>
+		<string>D</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Morphine Sulfate</string>
+		<key>BrandName</key>
+		<string>MS04 ®</string>
+		<key>DrugClass</key>
+		<string>Narcotic analgesic.</string>
+		<key>Dose</key>
+		<string>0.05-0.1 mg/kg</string>
+		<key>Mechanism</key>
+		<string>Morphine binds to opiate receptors in the central nervous system and alters the perception of pain and produces generalized CNS depression.</string>
+		<key>Indications</key>
+		<string>Acute pain, an adjunct to sedation in intubated patients,  acute myocardial infarction, and pulmonary edema.
+
+Typical adult dose: 4-8 mg.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, significant respiratory depression. Use caution in patients with increased intracranial pressure, renal, hepatic, pulmonary disease, adrenal insufficiency or history of substance abuse. Note: neonates less than three months of age are more susceptible to respiratory depression.</string>
+		<key>AdverseEffects</key>
+		<string>Histamine release-related hypotension and nausea, dry mouth, somnolence, respiratory depression, weakness and dizziness, uticaria, pruritis, nausea and vomiting.</string>
+		<key>Onset</key>
+		<string>Rapid</string>
+		<key>Duration</key>
+		<string>4-6 hrs</string>
+		<key>HalfLife</key>
+		<string>1-2 hrs</string>
+		<key>Absorbtion</key>
+		<string>Completely absorbed.</string>
+		<key>Distribution</key>
+		<string>Crosses BBB, placenta, breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver, mostly.</string>
+		<key>Excretion</key>
+		<string>Urine, active metabolites.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Naloxone</string>
+		<key>BrandName</key>
+		<string>Narcan ®</string>
+		<key>DrugClass</key>
+		<string>Narcotic antagonist.</string>
+		<key>Dose</key>
+		<string>0.2-0.4 mg</string>
+		<key>Mechanism</key>
+		<string>Narcan competitively displaces opioids at opioid receptor sites, including respiratory depression and the central nervous system, without producing any opioid-like effects. </string>
+		<key>Indications</key>
+		<string>Respiratory depression secondary to suspected narcotic overdose, opioid-induced pruritus (low-dose IV infusion). Management of refractory circulatory shock. 
+
+Pediatric dose: 0.1 mg/kg.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity.</string>
+		<key>AdverseEffects</key>
+		<string>Ventricular arrhythmias, hypertension, hypotension, nausea, vomiting, sweating, nervousness, restlessness, trembling, chest pain, seizures, and pulmonary edema.</string>
+		<key>Onset</key>
+		<string>1-2 min</string>
+		<key>Duration</key>
+		<string>~ 45 min</string>
+		<key>HalfLife</key>
+		<string>60-180 min</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Crosses the placenta.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine (as metabolites).</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Ondansetron</string>
+		<key>BrandName</key>
+		<string>Zofran ®</string>
+		<key>DrugClass</key>
+		<string>Antiemetic.</string>
+		<key>Dose</key>
+		<string>4 mg</string>
+		<key>Mechanism</key>
+		<string>Zofran decreases the incidence and severity of nausea and vomiting by selectively binding to serotonin 5-HT3 receptors (selective antagonist) located in vagal nerve terminals and chemoreceptor trigger zone in the CNS.</string>
+		<key>Indications</key>
+		<string>Prevention and treatment of nausea and vomiting. Ondansetron may be repeated up to three times at 10 minute intervals.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity, relatively contraindicated in those with prolonged QT syndrome.</string>
+		<key>AdverseEffects</key>
+		<string>Headache, dizziness, and cardiac dysrhythmias.</string>
+		<key>Onset</key>
+		<string>Rapid</string>
+		<key>Duration</key>
+		<string>4-8 hrs</string>
+		<key>HalfLife</key>
+		<string>3.5-5.5 hrs</string>
+		<key>Absorbtion</key>
+		<string>100% absorbed</string>
+		<key>Distribution</key>
+		<string>Unknown.</string>
+		<key>Metabolism</key>
+		<string>Extensively, liver (CYP3A4).</string>
+		<key>Excretion</key>
+		<string>Urine, 5%.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Oxytocin</string>
+		<key>BrandName</key>
+		<string>Pitocin ®</string>
+		<key>DrugClass</key>
+		<string>Oxytocic Agent.</string>
+		<key>Dose</key>
+		<string>0.5-40 mUnits/min</string>
+		<key>Mechanism</key>
+		<string>Oxytocin increases local prostaglandin production and stimulates uterine contraction by increasing intracellular calcium levels and uterine myofibrils by activating G-protein-coupled receptors- stimulating uterine contractions. </string>
+		<key>Indications</key>
+		<string>To induce labor at term. Control of postpartum bleeding after the removal of the placenta and to promote uterine contractions during the third stage of labor. 
+
+Management and adjunctive therapy in the presence of incomplete or inevitable abortions.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity to oxytocin, fetal distress, hypertonic or hyperactive uterus, contraindicated vaginal delivery, and cephalopelvic disproportion. </string>
+		<key>AdverseEffects</key>
+		<string>Hypertonia, coma, seizures, fetal asphyxia, fetal intracranial hemorrhage, fetal arrhythmias, ectopy, anaphylaxis, nausea, vomiting, uterine spasms, tetanic uterine contractions.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>1 hr</string>
+		<key>HalfLife</key>
+		<string>1-9 min</string>
+		<key>Absorbtion</key>
+		<string>Completely absorbed.</string>
+		<key>Distribution</key>
+		<string>Widely distributed.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>X</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Rocuronium</string>
+		<key>BrandName</key>
+		<string>Zemuron ®</string>
+		<key>DrugClass</key>
+		<string>Non-depolarizing paralytic.</string>
+		<key>Dose</key>
+		<string>0.6-1.2 mg/kg</string>
+		<key>Mechanism</key>
+		<string>Competes with acetylcholine to bind to its receptor at the motor endplate thus inhibiting muscle depolarization.</string>
+		<key>Indications</key>
+		<string>Adjunct to general anesthesia as a chemical paralytic to facilitate endotracheal intubation, maintain paralysis after intubation during surgery, and to support mechanical ventilation, therapeutic hypothermia.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity. Relatively contraindicated in Myasthenia Gravis or similar neuromuscular diseases, and the inability to orally intubate a patient.</string>
+		<key>AdverseEffects</key>
+		<string>Transient hypotension, increased peripheral vascular resistance, tachycardia, hypertension, bronchospasm, dysrhythmias, histamine release, Malignant Hyperthermia (MH).
+
+Consider using over succinylcholine during suspected hyperkalemia. There will be a reduced duration of action in pediatric patients which may require more frequent dosing.</string>
+		<key>Onset</key>
+		<string>1 min</string>
+		<key>Duration</key>
+		<string>~ 30 min</string>
+		<key>HalfLife</key>
+		<string>1.4-2.4 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed.</string>
+		<key>Distribution</key>
+		<string>Widely distributed.</string>
+		<key>Metabolism</key>
+		<string>Minimally hepatic.</string>
+		<key>Excretion</key>
+		<string>Feces 31%, Urine 26%.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Sodium Bicarbonate</string>
+		<key>BrandName</key>
+		<string>HC03</string>
+		<key>DrugClass</key>
+		<string>Alkalinizing Agent.</string>
+		<key>Dose</key>
+		<string>1 mEq/kg</string>
+		<key>Mechanism</key>
+		<string>HC03 raises plasma bicarbonate, buffers excess hydrogen ion concentrations, increases blood pH and at times, reverses clinical signs/symptoms of acidosis.</string>
+		<key>Indications</key>
+		<string>For the treatment of metabolic acidosis, used to alkalinize the urine and promote excretion of certain drugs in overdoses, hyperkalemia, and rhabdomyolysis.</string>
+		<key>Contraindications</key>
+		<string>Relatively contraindicated in conditions resulting in Chloride ion loss such as severe diarrhea, vomiting or gastric suctioning, and hypernatremia.</string>
+		<key>AdverseEffects</key>
+		<string>Hypernatremia, metabolic alkalosis, cerebral edema, and hypercapnea.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>Unknown</string>
+		<key>HalfLife</key>
+		<string>Unknown.</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed. </string>
+		<key>Distribution</key>
+		<string>Widely distributed.</string>
+		<key>Metabolism</key>
+		<string>Hepatic oxidation to bicarbonate.</string>
+		<key>Excretion</key>
+		<string>Urine &lt; 5% as Na Citrate.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Succinylcholine</string>
+		<key>BrandName</key>
+		<string>Anectine</string>
+		<key>DrugClass</key>
+		<string>Depolarizing paralytic.</string>
+		<key>Dose</key>
+		<string>1-2 mg/kg</string>
+		<key>Mechanism</key>
+		<string>Inhibits the action of acetylcholine on the motor end plate at the myoneural junction that produces depolarizations or fasciculations, acting non-competitively on muscle-type nicotinic receptors.</string>
+		<key>Indications</key>
+		<string>Facilitate endrotracheal intubation.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity. Absolutely contraindication in known or suspected hyperkalemia, cholinesterase deficiencies such as myasthenia gravis or similar neuromotor disease, eye injuries as it increases intraocular pressure, crush injuries &gt; 24 hrs, and the inability to control the airway.  </string>
+		<key>AdverseEffects</key>
+		<string>Anaphylaxis, apnea, hypotension, fasciculations, hyperkalemia, bradycardia, malignant hyperthermia, and cardiac arrhythmias.</string>
+		<key>Onset</key>
+		<string>1 min</string>
+		<key>Duration</key>
+		<string>~4 to 6 min</string>
+		<key>HalfLife</key>
+		<string>Unknown.</string>
+		<key>Absorbtion</key>
+		<string>Completely absorbed.</string>
+		<key>Distribution</key>
+		<string>90% Plasma.</string>
+		<key>Metabolism</key>
+		<string>Hydrolyzed by plasma pseudocholinesterase.</string>
+		<key>Excretion</key>
+		<string>Urine ~ 10% (as active/inactive metabolites).</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Terbutaline</string>
+		<key>BrandName</key>
+		<string>Brethine ®</string>
+		<key>DrugClass</key>
+		<string>Selective β-2 agonist.</string>
+		<key>Dose</key>
+		<string>0.25 mg SQ</string>
+		<key>Mechanism</key>
+		<string>Relaxes bronchial and uterine smooth muscles by selectively binding to beta2-receptors causing bronchodilation, inhibiting the release of mediators of immediate hypersensitivity reactions from mast cells and relaxing the uterus.</string>
+		<key>Indications</key>
+		<string>Manage reversible airway diseases due to asthma, emphysema, chronic bronchitis, COPD. Off-label: Preterm labor as a tocolytic and hyperkalemia. 
+
+Can repeat dose at 0.35 mg SQ. </string>
+		<key>Contraindications</key>
+		<string>Known hypersensitivity.</string>
+		<key>AdverseEffects</key>
+		<string>Tachycardia, nervousness, tremors, hypokalemia, hyperglycemia, and pulmonary edema.</string>
+		<key>Onset</key>
+		<string>6-15 min</string>
+		<key>Duration</key>
+		<string>1.5-4 hrs</string>
+		<key>HalfLife</key>
+		<string>5.7 hrs</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed SQ.</string>
+		<key>Distribution</key>
+		<string>Enters breast milk.</string>
+		<key>Metabolism</key>
+		<string>Partially, liver.</string>
+		<key>Excretion</key>
+		<string>Urine 60%.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Thiamine</string>
+		<key>BrandName</key>
+		<string>Vitamin B-1</string>
+		<key>DrugClass</key>
+		<string>Water soluble vitamin.</string>
+		<key>Dose</key>
+		<string> 25-100 mg</string>
+		<key>Mechanism</key>
+		<string>Adjunct in glucose metabolism; Thiamine combines with adenosine triphosphate (ATP) to form thiamine pyrophosphate, also known as cocarboxylase, a coenzyme. Its role in carbohydrate metabolism is the decarboxylation of pyruvic acid in the blood and ketoacids to acetaldehyde and carbon dioxide.</string>
+		<key>Indications</key>
+		<string>Prevention and treatment of Wernicke-Korsakoff Syndrome and Thiamine deficiency (dry or wet Beriberi) or prophylaxis in patients of questionable nutritional status such as chronic alcoholics, patients with GI disease or cirrhosis.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity. Known alcohol intolerance or bisulfite hypersensitivity.</string>
+		<key>AdverseEffects</key>
+		<string>Vascular collapse, hypertension, vasodilation, G.I. bleeding, angioedema, weakness, urticaria, nausea and respiratory distress.</string>
+		<key>Onset</key>
+		<string>1 hr</string>
+		<key>Duration</key>
+		<string>Unknown.</string>
+		<key>HalfLife</key>
+		<string>Unknown.</string>
+		<key>Absorbtion</key>
+		<string>Well absorbed GI tract.</string>
+		<key>Distribution</key>
+		<string>Enters breast milk.</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>A</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Tranexamic Acid (TXA)</string>
+		<key>BrandName</key>
+		<string>Cyklokapron ®</string>
+		<key>DrugClass</key>
+		<string>Antifibrinolytic agent.</string>
+		<key>Dose</key>
+		<string>1  g over 10 min; 1g over 8 hrs</string>
+		<key>Mechanism</key>
+		<string>Tranexamic acid is a synthetic lysine amino acid derivative that inhibits the activation of plasminogen to plasmin to prevent the breakdown of fibrin clots.  
+
+With the reduction of plasmin activity, it also reduces complement and C1 activation which ultimately decreases inflammation associated with hereditary angioedema.</string>
+		<key>Indications</key>
+		<string>Hemorrhage, hemophilia, hereditary angioedema, &amp; chronic menstrual bleeding. 
+
+Trauma Indications: Systolic blood pressure less than 90 mmHg, adult greater than 16 years of age with suspected hemorrhaging after blunt or penetrating injuries and one more of the following: penetrating injuries to the neck, torso or extremities proximal to the elbow or knees; two or more proximal long bone fractures; amputation; pulseless or crushed extremities; falls greater than 20 feet; motor vehicle ejections; pedestrian/motorcycle accidents greater than 20 mph.
+
+Administration: 1 g / 100 ml NSS IV initially over ten minutes within three hours of trauma. 
+
+1 g IV gtt given over eight hours after the initial bolus.</string>
+		<key>Contraindications</key>
+		<string>Known hypersensitivity. Isolated head injuries, age under 16 years or over 55 years. Injury greater than three hours old.</string>
+		<key>AdverseEffects</key>
+		<string>Increased clot formation,  blurred vision, anxiety, nausea/vomiting, DVT, PE.</string>
+		<key>Onset</key>
+		<string>Immediate</string>
+		<key>Duration</key>
+		<string>24 hrs</string>
+		<key>HalfLife</key>
+		<string>3 hrs</string>
+		<key>Absorbtion</key>
+		<string>Rapidly absorbed.</string>
+		<key>Distribution</key>
+		<string>ECF</string>
+		<key>Metabolism</key>
+		<string>&lt; 5%</string>
+		<key>Excretion</key>
+		<string>Urine.</string>
+		<key>PregnancyClass</key>
+		<string>B</string>
+	</dict>
+	<dict>
+		<key>MainTitle</key>
+		<string>Vecuronium</string>
+		<key>BrandName</key>
+		<string>Norcuron ®</string>
+		<key>DrugClass</key>
+		<string>Non-depolarizing paralytic.</string>
+		<key>Dose</key>
+		<string>0.1 mg/kg</string>
+		<key>Mechanism</key>
+		<string>Vecuronium is a non-depolarizing paralytic that competes for cholinergic receptors at the motor and plate.</string>
+		<key>Indications</key>
+		<string>An adjunct to general anesthesia, facilitate endotracheal intubation, provide muscle relaxation and maintain paralysis during mechanical ventilation or surgery.</string>
+		<key>Contraindications</key>
+		<string>Hypersensitivity. Relatively contraindicated in myasthenia gravis or similar neuromuscular diseases.</string>
+		<key>AdverseEffects</key>
+		<string>Hypotension, hypertension, bronchospasm, dysrhythmias, histamine release, and malignant hyperthermia.</string>
+		<key>Onset</key>
+		<string>2.5-3 min</string>
+		<key>Duration</key>
+		<string>45-65 min</string>
+		<key>HalfLife</key>
+		<string>1.5 hrs</string>
+		<key>Absorbtion</key>
+		<string>Completely absorbed.</string>
+		<key>Distribution</key>
+		<string>ECF</string>
+		<key>Metabolism</key>
+		<string>Liver.</string>
+		<key>Excretion</key>
+		<string>Primarily feces 40-75%, urine 30%.</string>
+		<key>PregnancyClass</key>
+		<string>C</string>
+	</dict>
+</array>
+</plist>

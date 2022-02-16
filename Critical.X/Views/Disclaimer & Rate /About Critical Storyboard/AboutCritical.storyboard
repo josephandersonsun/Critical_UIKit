@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7j7-nr-Fyi">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rate Critical Pop Up-->
+        <scene sceneID="ZGP-c6-DrF">
+            <objects>
+                <viewController storyboardIdentifier="About Critical" modalPresentationStyle="overCurrentContext" id="7j7-nr-Fyi" customClass="RateCriticalPopUp" customModule="Critical_CalStar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5jv-vG-mpO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zPg-d7-XRd">
+                                <rect key="frame" x="0.0" y="0.0" width="323" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="qgl-sT-6jx">
+                                    <rect key="frame" x="0.0" y="0.0" width="323" height="568"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" horizontalHuggingPriority="260" verticalHuggingPriority="260" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uG1-fO-Vgx">
+                                <rect key="frame" x="15" y="63" width="290" height="425"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Critical_Logo_OutlineNavy" translatesAutoresizingMaskIntoConstraints="NO" id="jsk-mk-Urq">
+                                        <rect key="frame" x="72" y="13" width="146" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.85098039215686272" green="0.2196078431372549" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xou-fM-Pou">
+                                        <rect key="frame" x="229" y="13" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <state key="normal" title="X">
+                                            <color key="titleColor" name="Critical Black"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="dismissPopUpVC:" destination="7j7-nr-Fyi" eventType="touchUpInside" id="o7R-BL-zQa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNY-UJ-bHi" customClass="UIButtonX">
+                                        <rect key="frame" x="12" y="261" width="266" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="Silver"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="✦✦ SPECIAL THANKS! 👏🏽 ✦✦">
+                                            <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="rrg-li-bio" kind="showDetail" id="2du-Wv-R9h"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tis-He-lkF" customClass="UIButtonX">
+                                        <rect key="frame" x="12" y="158" width="266" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="Marina"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="EMAIL US 📩">
+                                            <color key="titleColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="sendEmailFeedback:" destination="7j7-nr-Fyi" eventType="touchUpInside" id="TQh-Sj-uF8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2G-Eo-H0i" customClass="UIButtonX">
+                                        <rect key="frame" x="12" y="109" width="266" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="Shamrock Green"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="⭐️ RATE CRITICAL 5 STARS  ⭐️">
+                                            <color key="titleColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="rateCritical:" destination="7j7-nr-Fyi" eventType="touchUpInside" id="o2L-ad-Xwi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aI8-Ry-Qha" customClass="UIButtonX">
+                                        <rect key="frame" x="12" y="209" width="266" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="Critical Red"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="DISCLAIMER">
+                                            <color key="titleColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="6a2-ri-tkr" kind="presentation" id="Ph0-vt-K8I"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LQr-eU-bQL" customClass="UIButtonX">
+                                        <rect key="frame" x="12" y="313" width="266" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="✦✦">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content=" Join the ">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="17" name="HelveticaNeue-CondensedBlack"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="DREAM">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.89126098155975342" green="0.3545563817024231" blue="0.39968371391296387" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="17" name="HelveticaNeue-CondensedBlack"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content=" Forum  ">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="17" name="HelveticaNeue-CondensedBlack"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="✦✦">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="17" name="ZapfDingbatsITC"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="criticalDreamTeamButtonClicked:" destination="7j7-nr-Fyi" eventType="touchUpInside" id="25T-cE-XaE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3j-XX-iRE" customClass="UIButtonX">
+                                        <rect key="frame" x="12" y="369" width="266" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="BelizeHole"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="19"/>
+                                        <state key="normal" title="Show me whats new! ">
+                                            <color key="titleColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="clickedWhatsNew:" destination="7j7-nr-Fyi" eventType="touchUpInside" id="l67-c5-fAn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="JHn-vA-nAD"/>
+                    </view>
+                    <connections>
+                        <outlet property="popUpView" destination="uG1-fO-Vgx" id="oac-Ry-UHS"/>
+                        <outlet property="whatsNew" destination="L3j-XX-iRE" id="DU2-wA-3rL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZG7-Ob-EsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2912" y="-226"/>
+        </scene>
+        <!--Disclaimer -->
+        <scene sceneID="cVD-8h-Idm">
+            <objects>
+                <viewController storyboardIdentifier="AcceptView" title="Disclaimer " useStoryboardIdentifierAsRestorationIdentifier="YES" id="6a2-ri-tkr" customClass="Disclaimer" customModule="Critical_CalStar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tNj-Ly-QLb"/>
+                        <viewControllerLayoutGuide type="bottom" id="PAQ-7y-XT3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="viQ-v9-OWL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1350"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bts-Za-Zip">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1350"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="JJe-Sa-th4">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="1350"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txW-kZ-f7k">
+                                <rect key="frame" x="8" y="60" width="296" height="1298"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7io-ZL-bSZ">
+                                        <rect key="frame" x="0.0" y="44" width="351" height="1254"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PrV-G4-Kcn">
+                                                <rect key="frame" x="8" y="4" width="283" height="1190"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1190" id="CKD-G0-bG2"/>
+                                                    <constraint firstAttribute="width" constant="283" id="UkP-1w-3cO"/>
+                                                </constraints>
+                                                <string key="text">The following user agreement and disclaimer applies to all The Barringer Group's programs, including but not limited to: Critical – X".
+
+Please be aware that all information provided as part of Critical – X programs are not meant for definitive diagnostic purposes. They should be rechecked and confirmed against your facility's conventional medical devices, guidelines, and protocols. Critical's program is not a substitute for clinical judgment or standard – of – care medicine. While the authors and producers of Critical strive to provide you with useful and accurate tools contained in this product, The Barringer group does not warrant and expressively disclaim that the information provided by this product is up – to – date, complete, or accurate.
+
+You agree to use the product only as an education aid and not to diagnose or treat a condition or as a substitute for any or to override the exercise of professional judgment by a healthcare professional. Given these possibilities of human errors or changes in medical science, you should confirm the information in the product through independent sources. The Barringer Group is not responsible for misdiagnosis of an element or misuse of treatment due to typographical or other errors in the product, user negligence or otherwise.
+
+You agree and acknowledge that you will, at all times, advise patients to seek professional diagnosis and treatment for any medical condition and to discuss information obtained for the product with healthcare providers. This product is, to the extent permitted by law, provided on an "as is" basis without warranties of any kind, express or implied, in the authors and producers of Critical disclaims any liability, loss, or damage caused by it or its content. By continuing to use this product, you indicate your acceptance of these terms. Updated January 1, 2019</string>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCj-Vn-TDX">
+                                                <rect key="frame" x="10" y="1208" width="281" height="39"/>
+                                                <color key="backgroundColor" red="0.85043728350000003" green="0.21816034619999999" blue="0.15920260550000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="Yfb-l4-Fo7"/>
+                                                    <constraint firstAttribute="width" constant="281" id="d4A-lj-ecl"/>
+                                                </constraints>
+                                                <state key="normal" title="Accept">
+                                                    <color key="titleColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="dismiss:" destination="6a2-ri-tkr" eventType="touchUpInside" id="dC0-23-aS9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="PrV-G4-Kcn" secondAttribute="trailing" constant="60" id="ADL-ff-7sn"/>
+                                            <constraint firstAttribute="bottom" secondItem="qCj-Vn-TDX" secondAttribute="bottom" constant="7" id="GuL-Bu-txN"/>
+                                            <constraint firstItem="PrV-G4-Kcn" firstAttribute="top" secondItem="7io-ZL-bSZ" secondAttribute="top" constant="4" id="Saq-nk-AZT"/>
+                                            <constraint firstItem="qCj-Vn-TDX" firstAttribute="top" secondItem="7io-ZL-bSZ" secondAttribute="top" constant="1208" id="WFr-Gv-dnv"/>
+                                            <constraint firstItem="qCj-Vn-TDX" firstAttribute="leading" secondItem="7io-ZL-bSZ" secondAttribute="leading" constant="10" id="r2X-dY-2BO"/>
+                                            <constraint firstItem="qCj-Vn-TDX" firstAttribute="trailing" secondItem="PrV-G4-Kcn" secondAttribute="trailing" id="sX5-SN-svq"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dN1-p1-9VW">
+                                        <rect key="frame" x="0.0" y="0.0" width="296" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="296" id="h0A-Uk-CZf"/>
+                                            <constraint firstAttribute="height" constant="44" id="icd-s7-FYr"/>
+                                        </constraints>
+                                        <color key="barTintColor" name="Critical Red"/>
+                                        <textAttributes key="titleTextAttributes">
+                                            <color key="textColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </textAttributes>
+                                        <items>
+                                            <navigationItem title="DISCLAIMER AGREEMENT" id="2sU-Sx-xXH"/>
+                                        </items>
+                                    </navigationBar>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="dN1-p1-9VW" firstAttribute="leading" secondItem="7io-ZL-bSZ" secondAttribute="leading" id="5K9-WL-8dc"/>
+                                    <constraint firstItem="dN1-p1-9VW" firstAttribute="trailing" secondItem="7io-ZL-bSZ" secondAttribute="trailing" constant="-55" id="GPF-vq-rTM"/>
+                                    <constraint firstItem="dN1-p1-9VW" firstAttribute="leading" secondItem="txW-kZ-f7k" secondAttribute="leading" id="KQT-Hp-f7K"/>
+                                    <constraint firstItem="7io-ZL-bSZ" firstAttribute="top" secondItem="dN1-p1-9VW" secondAttribute="bottom" id="OKa-nU-a8F"/>
+                                    <constraint firstAttribute="trailing" secondItem="dN1-p1-9VW" secondAttribute="trailing" id="RKo-Dp-Rkr"/>
+                                    <constraint firstAttribute="trailing" secondItem="7io-ZL-bSZ" secondAttribute="trailing" id="cRM-gE-NSI"/>
+                                    <constraint firstItem="7io-ZL-bSZ" firstAttribute="leading" secondItem="txW-kZ-f7k" secondAttribute="leading" id="iyk-BH-nns"/>
+                                    <constraint firstItem="7io-ZL-bSZ" firstAttribute="top" secondItem="dN1-p1-9VW" secondAttribute="bottom" id="keD-aG-fFM"/>
+                                    <constraint firstAttribute="bottom" secondItem="7io-ZL-bSZ" secondAttribute="bottom" id="lyF-FG-guG"/>
+                                    <constraint firstItem="dN1-p1-9VW" firstAttribute="top" secondItem="txW-kZ-f7k" secondAttribute="top" id="mE0-aO-rDC"/>
+                                    <constraint firstItem="dN1-p1-9VW" firstAttribute="top" secondItem="txW-kZ-f7k" secondAttribute="top" id="n5H-fQ-nv8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="txW-kZ-f7k" secondAttribute="bottom" constant="-8" id="BBk-Ls-Jr8"/>
+                            <constraint firstItem="txW-kZ-f7k" firstAttribute="trailing" secondItem="viQ-v9-OWL" secondAttribute="trailingMargin" id="COs-uV-dKV"/>
+                            <constraint firstItem="txW-kZ-f7k" firstAttribute="leading" secondItem="ci4-aY-884" secondAttribute="leading" constant="8" id="Gam-EP-gPi"/>
+                            <constraint firstItem="txW-kZ-f7k" firstAttribute="top" secondItem="tNj-Ly-QLb" secondAttribute="bottom" constant="40" id="Okt-br-wxp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ci4-aY-884"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="1350"/>
+                    <connections>
+                        <outlet property="disclaimerSubView" destination="txW-kZ-f7k" id="BDv-vb-7iv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i2z-ht-N0f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3616.875" y="186.97183098591549"/>
+        </scene>
+        <!--Special Thanks-->
+        <scene sceneID="INg-hQ-xS0">
+            <objects>
+                <viewController storyboardIdentifier="SpecialThanks" modalPresentationStyle="overCurrentContext" id="rrg-li-bio" customClass="SpecialThanks" customModule="Critical_CalStar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2dG-IB-cd4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nFc-sR-l2d">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="nlX-Cg-ptm">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g74-cP-uax">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="675"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGs-Xs-PFp" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="655"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhk-QL-uQq" customClass="AKLabel" customModule="AKLabel">
+                                                <rect key="frame" x="8" y="158" width="302" height="18"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                                <color key="textColor" name="Clouds"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3pY-Sb-39o">
+                                                <rect key="frame" x="16" y="536" width="292" height="56"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDk-sY-EAa">
+                                                        <rect key="frame" x="8" y="8" width="276" height="43"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                        <state key="normal" title="Thanks ! "/>
+                                                        <connections>
+                                                            <action selector="dismissSpecialThanks:" destination="rrg-li-bio" eventType="touchUpInside" id="aUt-qi-sNB"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" name="Grenadine"/>
+                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Critical_Logo_OutlineNavy" translatesAutoresizingMaskIntoConstraints="NO" id="xg9-S6-Ixl">
+                                                <rect key="frame" x="10" y="40" width="300" height="97"/>
+                                                <color key="tintColor" red="0.85098039219999999" green="0.21960784310000001" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="97" id="BPi-ht-ywd"/>
+                                                    <constraint firstAttribute="width" constant="300" id="fCs-Ri-Fzz"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="vhk-QL-uQq" firstAttribute="top" secondItem="xg9-S6-Ixl" secondAttribute="bottom" constant="21" id="1gb-st-NqQ"/>
+                                            <constraint firstItem="vhk-QL-uQq" firstAttribute="width" secondItem="KGs-Xs-PFp" secondAttribute="width" constant="-18" id="2k3-5i-VSB"/>
+                                            <constraint firstAttribute="trailing" secondItem="xg9-S6-Ixl" secondAttribute="trailing" constant="10" id="3K0-Wt-coe"/>
+                                            <constraint firstItem="vhk-QL-uQq" firstAttribute="leading" secondItem="KGs-Xs-PFp" secondAttribute="leading" constant="8" id="7xf-Ou-4Ca"/>
+                                            <constraint firstAttribute="width" constant="320" id="82s-Jl-mtn"/>
+                                            <constraint firstAttribute="height" constant="655" id="HCg-1H-4gl"/>
+                                            <constraint firstItem="xg9-S6-Ixl" firstAttribute="leading" secondItem="KGs-Xs-PFp" secondAttribute="leading" constant="10" id="InN-Bu-spP"/>
+                                            <constraint firstAttribute="trailing" secondItem="vhk-QL-uQq" secondAttribute="trailing" constant="10" id="Ut2-Z4-rzZ"/>
+                                            <constraint firstItem="xg9-S6-Ixl" firstAttribute="top" secondItem="KGs-Xs-PFp" secondAttribute="top" constant="40" id="lmw-Nv-7aZ"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="HVD-55-n4k"/>
+                                    <constraint firstItem="KGs-Xs-PFp" firstAttribute="width" secondItem="g74-cP-uax" secondAttribute="width" id="Nmi-jt-Q2B"/>
+                                    <constraint firstItem="KGs-Xs-PFp" firstAttribute="leading" secondItem="g74-cP-uax" secondAttribute="leading" id="Qmj-xK-OSW"/>
+                                    <constraint firstAttribute="bottom" secondItem="KGs-Xs-PFp" secondAttribute="bottom" constant="20" id="Tif-b3-q5U"/>
+                                    <constraint firstAttribute="trailing" secondItem="KGs-Xs-PFp" secondAttribute="trailing" id="cbl-ys-D7L"/>
+                                    <constraint firstItem="KGs-Xs-PFp" firstAttribute="top" secondItem="g74-cP-uax" secondAttribute="top" id="gXe-JE-Xct"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="g74-cP-uax" firstAttribute="bottom" secondItem="28B-ya-UtD" secondAttribute="bottom" constant="107" id="BS0-06-brf"/>
+                            <constraint firstItem="g74-cP-uax" firstAttribute="top" secondItem="2dG-IB-cd4" secondAttribute="top" id="GQ6-xu-1Wp"/>
+                            <constraint firstItem="g74-cP-uax" firstAttribute="leading" secondItem="28B-ya-UtD" secondAttribute="leading" id="QJr-wc-pcY"/>
+                            <constraint firstItem="g74-cP-uax" firstAttribute="trailing" secondItem="28B-ya-UtD" secondAttribute="trailing" id="hUe-uz-tcg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="28B-ya-UtD"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="criticalImage" destination="xg9-S6-Ixl" id="j3w-g9-Ncx"/>
+                        <outlet property="scrollHeight" destination="InN-Bu-spP" id="RYd-9t-vZO"/>
+                        <outlet property="specialThanksScroller" destination="g74-cP-uax" id="M2a-Ph-J4k"/>
+                        <outlet property="thankYouLabel" destination="vhk-QL-uQq" id="dAq-01-nto"/>
+                        <outlet property="thanksView" destination="KGs-Xs-PFp" id="0Sf-Qu-Br8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qBT-PE-axz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4318" y="-226"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Critical_Logo_OutlineNavy" width="1536" height="1536"/>
+        <namedColor name="BelizeHole">
+            <color red="0.16099999845027924" green="0.50199997425079346" blue="0.72500002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Clouds">
+            <color red="0.92500001192092896" green="0.94099998474121094" blue="0.94499999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Critical Black">
+            <color red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Critical Red">
+            <color red="0.81568627450980391" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Grenadine">
+            <color red="0.875" green="0.24699999392032623" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Marina">
+            <color red="0.31000000238418579" green="0.51800000667572021" blue="0.76899999380111694" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Shamrock Green">
+            <color red="0.3411764705882353" green="0.65490196078431373" blue="0.45098039215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Silver">
+            <color red="0.74099999666213989" green="0.76499998569488525" blue="0.77999997138977051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tbk-7W-9Dp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OK-pR-ghe">
+                                        <rect key="frame" x="8" y="283" width="304" height="46"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Critical ">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="38" name="HelveticaNeue-CondensedBlack"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="ABG">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.78738981485366821" green="0.24644413590431213" blue="0.27221894264221191" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="38" name="HelveticaNeue-CondensedBlack"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Barringer Group, LLC © 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6c1-mc-lrW">
+                                        <rect key="frame" x="8" y="533" width="304" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="DPN-4k-jqm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" name="Clouds"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="CriticalABG" translatesAutoresizingMaskIntoConstraints="NO" id="abV-vi-Ztn">
+                                        <rect key="frame" x="143" y="490" width="34" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjQ-4d-BP9">
+                                        <rect key="frame" x="8" y="120" width="304" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="YOh-Sq-dqz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="38"/>
+                                        <color key="textColor" name="NeutralGray"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LungsGreen" translatesAutoresizingMaskIntoConstraints="NO" id="a1W-Z2-bfr">
+                                        <rect key="frame" x="97" y="179" width="126" height="96"/>
+                                        <color key="tintColor" name="Nephritis"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="96" id="3Rh-AC-ZCv"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="5OK-pR-ghe" firstAttribute="leading" secondItem="6c1-mc-lrW" secondAttribute="leading" id="7xl-wK-8t1"/>
+                                    <constraint firstItem="5OK-pR-ghe" firstAttribute="top" secondItem="a1W-Z2-bfr" secondAttribute="bottom" constant="8" symbolic="YES" id="Axk-Dz-B5t"/>
+                                    <constraint firstItem="CjQ-4d-BP9" firstAttribute="top" secondItem="Tbk-7W-9Dp" secondAttribute="top" constant="120" id="E55-Fa-OWL"/>
+                                    <constraint firstItem="a1W-Z2-bfr" firstAttribute="leading" secondItem="Tbk-7W-9Dp" secondAttribute="leading" constant="97" id="Jy3-0H-GoU"/>
+                                    <constraint firstItem="CjQ-4d-BP9" firstAttribute="trailing" secondItem="Tbk-7W-9Dp" secondAttribute="trailingMargin" id="PrL-wG-SmW"/>
+                                    <constraint firstItem="CjQ-4d-BP9" firstAttribute="leading" secondItem="Tbk-7W-9Dp" secondAttribute="leadingMargin" id="Yoi-ZF-cqG"/>
+                                    <constraint firstItem="a1W-Z2-bfr" firstAttribute="top" secondItem="CjQ-4d-BP9" secondAttribute="bottom" constant="19" id="ap5-yQ-ZzU"/>
+                                    <constraint firstItem="CjQ-4d-BP9" firstAttribute="leading" secondItem="5OK-pR-ghe" secondAttribute="leading" id="grv-df-aa3"/>
+                                    <constraint firstItem="CjQ-4d-BP9" firstAttribute="trailing" secondItem="5OK-pR-ghe" secondAttribute="trailing" id="iAN-IK-qgB"/>
+                                    <constraint firstItem="a1W-Z2-bfr" firstAttribute="centerX" secondItem="5OK-pR-ghe" secondAttribute="centerX" id="iJB-iP-1uV"/>
+                                    <constraint firstAttribute="bottom" secondItem="6c1-mc-lrW" secondAttribute="bottom" constant="14" id="rn7-qw-nU8"/>
+                                    <constraint firstItem="5OK-pR-ghe" firstAttribute="trailing" secondItem="6c1-mc-lrW" secondAttribute="trailing" id="zyH-Hg-hNa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Tbk-7W-9Dp" secondAttribute="trailing" id="EHF-YG-44H"/>
+                            <constraint firstItem="Tbk-7W-9Dp" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="G1O-vx-ThN"/>
+                            <constraint firstItem="Tbk-7W-9Dp" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Yid-4p-sc6"/>
+                            <constraint firstItem="Tbk-7W-9Dp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lEg-6a-OMq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CriticalABG" width="1024" height="1024"/>
+        <image name="LungsGreen" width="512" height="512"/>
+        <namedColor name="Clouds">
+            <color red="0.92500001192092896" green="0.94099998474121094" blue="0.94499999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Nephritis">
+            <color red="0.15299999713897705" green="0.68199998140335083" blue="0.37599998712539673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NeutralGray">
+            <color red="0.55699998140335083" green="0.5690000057220459" blue="0.56099998950958252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

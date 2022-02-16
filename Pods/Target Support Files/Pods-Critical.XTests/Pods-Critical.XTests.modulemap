@@ -1,0 +1,6 @@
+framework module Pods_Critical_XTests {
+  umbrella header "Pods-Critical.XTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

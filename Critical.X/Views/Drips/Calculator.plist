@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>maintitle</key>
+		<string>Amiodarone</string>
+		<key>BrandName</key>
+		<string>Cordarone</string>
+		<key>min</key>
+		<string>0.5</string>
+		<key>max</key>
+		<string>1</string>
+		<key>unit</key>
+		<string>mg/min</string>
+		<key>totaldose</key>
+		<string>900</string>
+		<key>bag</key>
+		<string>500</string>
+		<key>dose</key>
+		<string>0.5</string>
+		<key>increment</key>
+		<string>0.1</string>
+		<key>DrugClass</key>
+		<string>Class III antiarrhythmic agent</string>
+		<key>Indications</key>
+		<string>Refractory Ventricular Fibrillation / V-Tach. 
+
+Atrial Fibrillation.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in D5W only.
+
+Central line preferred with an inline particulate filter. 
+
+Caution in patients who are on Digitalis.
+
+Caution with patients who are on beta blockers. 
+
+Adverse Effects: QT prolongation, SA blocks, bradycardia, interstitial lung disease.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Angiotensin II</string>
+		<key>BrandName</key>
+		<string>Giapreza</string>
+		<key>min</key>
+		<string>1</string>
+		<key>max</key>
+		<string>80</string>
+		<key>unit</key>
+		<string>ng/kg/min</string>
+		<key>totaldose</key>
+		<string>2.5</string>
+		<key>bag</key>
+		<string>500</string>
+		<key>dose</key>
+		<string>0.5</string>
+		<key>increment</key>
+		<string>5</string>
+		<key>DrugClass</key>
+		<string>Vasoactive Agent. 
+
+Renin-angiotensin-aldosterone peptide hormone.
+
+By the release of aldosterone, angiotensin II acts directly on the blood vessels causing vasoconstriction- thus increasing overall blood pressure and SVR.</string>
+		<key>Indications</key>
+		<string>Septic / distributive shock.
+</string>
+		<key>WhatToKnow</key>
+		<string>Initial 10-20 ng/kg/min- monitor the blood pressure response and increase the dose by up to 15 ng/kg/min at 5-minute increments. 
+
+Decrease dose in the same fashion to the desired effect. 
+
+Maximum initial dose: 80 ng/kg/min during the first 3 hrs. 
+
+Maximum maintenance dose: 40 ng/kg/min.
+
+Adverse Effects: 
+Thrombosis, tachycardia, acidosis, peripheral ischemia.  Consider DVT prophylaxis to prevent arterial and venous thrombotic and thromboembolic events.
+
+Concentration: 
+2.5 mg / 500mL 
+2.5 mg / 250mL fluid restricted.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Bumex</string>
+		<key>BrandName</key>
+		<string>Bumetanide</string>
+		<key>min</key>
+		<string>0.1</string>
+		<key>max</key>
+		<string>2</string>
+		<key>unit</key>
+		<string>mg/hr</string>
+		<key>totaldose</key>
+		<string>10</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>0.5</string>
+		<key>increment</key>
+		<string>0.1</string>
+		<key>DrugClass</key>
+		<string>Potent loop diuretic.
+
+Works in the ascending Loop of Henle &amp; proximal tubule to excrete  Na+, K+, Cl- and water.</string>
+		<key>Indications</key>
+		<string>Management of edema, fluid overload secondary to heart, hepatic or renal failure.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS or D5W.
+
+At times, despite higher doses, patients may develop diuretic resistance.
+
+Diuretic resistance can be overcome by IV diuretic infusion with a combination of 2 different diuretics or a diuretic in conjunction with an inotropic agent.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Cardene</string>
+		<key>BrandName</key>
+		<string>Nicardipine</string>
+		<key>max</key>
+		<string>15</string>
+		<key>min</key>
+		<string>2.5</string>
+		<key>unit</key>
+		<string>mg/hr</string>
+		<key>totaldose</key>
+		<string>25</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>5</string>
+		<key>increment</key>
+		<string>2.5</string>
+		<key>DrugClass</key>
+		<string>Dihydropyridine calcium channel blocker.
+
+Antihypertensive.</string>
+		<key>Indications</key>
+		<string>Hypertension.
+
+Subarachnoid hemorrhage associated cerebral vasospasms, ICH, management of severe hypertension.
+
+Blood pressure management in aortic aneurysms.</string>
+		<key>WhatToKnow</key>
+		<string>Usually pre-filled, not compatible with Lactated Ringer’s.
+
+Begin infusion at 2.5 mg/hr, may increase every 5 minutes by 5 mg/hr increments to a total dose of 15 mg/hr.
+
+Use caution with patients who are on beta blockers.
+
+Absolute contraindication in patients with severe  Aortic stenosis.
+
+Adverse Effects: Hypotension, Tachycardia, Headache, Peripheral edema.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Cisatracurium</string>
+		<key>BrandName</key>
+		<string>Nimbex</string>
+		<key>max</key>
+		<string>10</string>
+		<key>min</key>
+		<string>0.5</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>totaldose</key>
+		<string>100</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>3</string>
+		<key>increment</key>
+		<string>0.5</string>
+		<key>DrugClass</key>
+		<string>Non-depolarizing neuromuscular blocker.
+
+Blocks neural transmission at the neuronal junction by binding with cholinergic receptor sites.</string>
+		<key>Indications</key>
+		<string>To facilitate endotracheal intubation / mechanical ventilation in adequately sedated patients and to relax skeletal muscles during RSI or surgery.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W.
+
+Does not produce analgesia or sedation.
+
+Effects are minimal and transient.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Clevidipine</string>
+		<key>BrandName</key>
+		<string>Cleviprex</string>
+		<key>max</key>
+		<string>6</string>
+		<key>min</key>
+		<string>1</string>
+		<key>unit</key>
+		<string>mg/hr</string>
+		<key>totaldose</key>
+		<string>50</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>3</string>
+		<key>increment</key>
+		<string>1</string>
+		<key>DrugClass</key>
+		<string>Antihypertensive, Dihydropyridine Calcium Channel Blocker.
+
+Blocks neural transmission at the neuronal junction by
+binding with cholinergic receptor sites.</string>
+		<key>Indications</key>
+		<string>Indicated in those who are severely hypertensive,  Subarachnoid Hemorrhage, and Intracranial Hemorrhage.  
+
+Administered to adequately sedated patients and to relax skeletal muscles during RSI or surgery.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W, LR
+Should not run with other medications.
+
+Initial infusion of 1-2mg/hr. The dose may be doubled at 90 seconds to achieve the target blood pressure goal. As blood pressure approaches the target BP, the dosage may be increased less at 5-10 mg intervals. 
+
+For every 1 to 2 mg/hour increase in dosage, you may notice a reduction in systolic blood pressure of 2 to 4 mmHg.
+
+Contraindication in patients with known severe aortic stenosis, and soy or egg allergies.
+
+Adverse effects: 
+Hypotension, atrial fibrillation, nausea, reflex tachycardia, and fever. Be aware of negative inotropic effects as calcium channel blockers can exacerbate heart failure in patients with a history of same.  
+
+Concentration: 
+25mg/50ml
+50mg/100ml</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Dexmedetomidine</string>
+		<key>BrandName</key>
+		<string>Precedex</string>
+		<key>min</key>
+		<string>0.2</string>
+		<key>max</key>
+		<string>1</string>
+		<key>unit</key>
+		<string>mcg/kg/hr</string>
+		<key>showinfo</key>
+		<true/>
+		<key>totaldose</key>
+		<string>0.2</string>
+		<key>bag</key>
+		<string>50</string>
+		<key>dose</key>
+		<string>0.4</string>
+		<key>increment</key>
+		<string>0.1</string>
+		<key>DrugClass</key>
+		<string>Sedative,  Alpha 2-Adrenergic Agonist. </string>
+		<key>Indications</key>
+		<string>Procedural sedation for mechanically intubated patients.
+
+Sedation for other procedures of non-intubated patients.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W.
+
+Off label use for sedation during awake craniotomy and to treat shivering.
+
+Effects of bradycardia, hypotension and sinus arrest have been associated with rapid administration.
+
+Adverse Effects: Cardiovascular such as Bradycardia, tachycardia, hypotension, hypertension, respiratory depression, oliguria, hypokalemia.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Diprivan</string>
+		<key>BrandName</key>
+		<string>Propofol</string>
+		<key>max</key>
+		<string>200</string>
+		<key>min</key>
+		<string>5</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>description</key>
+		<string>Pre-mixed</string>
+		<key>totaldose</key>
+		<string>1000</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>25</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Potent, emulsified, sedative- hypnotic agent.</string>
+		<key>Indications</key>
+		<string>Continued / procedural sedation.
+
+Seizure management not responsive to benzodiazepines.</string>
+		<key>WhatToKnow</key>
+		<string>Hypotension is common and usually transient.
+
+Bolus then place on an infusion. Frequent bolus dosing is not recommended.
+
+Supplied in a glass bottle.
+
+Adverse Effects: Hypotension, Apnea, Respiratory depression, Propofol Related Infusion Syndrome (PRIS), and Bradycardia.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Diltiazem</string>
+		<key>BrandName</key>
+		<string>Cardizem</string>
+		<key>min</key>
+		<string>5</string>
+		<key>max</key>
+		<string>15</string>
+		<key>unit</key>
+		<string>mg/hr</string>
+		<key>totaldose</key>
+		<string>125</string>
+		<key>bag</key>
+		<string>125</string>
+		<key>dose</key>
+		<string>10</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Class IV antiarrythmic, Non-dihydropyridine Calcium Channel Blocker, Antihypertensive.
+
+Blocks Ca2+ influx during depolarization of cardiac &amp; vascular smooth muscle decreasing B/P, and ↓ SVR. 
+
+Slows conduction through the AV node, prolongs the refractory period, and reduces the ventricular rate.</string>
+		<key>Indications</key>
+		<string>Hypertension,  stable narrow-complex tachycardia, Hypertrophic cardiomyopathy, Atrial fibrillation for rate control.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W.
+
+Treatment with Cardizem may come with considerable risk if the patient exhibits a widened QRS complex, frequent PVCs or a re-entrant conduction pathway such as WPW. 
+
+Adverse Effects: Edema, headaches, reflex tachycardia, 1st degree AV block, bradycardia, hypotension, CHF, dizziness.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Dobutamine</string>
+		<key>BrandName</key>
+		<string>Dobutrex</string>
+		<key>min</key>
+		<string>2</string>
+		<key>max</key>
+		<string>20</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>totaldose</key>
+		<string>500</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>10</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Inotrope, Adrenergic Agonist, Synthetic sympathomimetic catecholamine.
+
+Stimulates the β receptors in the heart. + inotrope  (↑ CO, ↑ contractility, ↑ Cardiac Index). Produces minimal increases in rate and B/P. 
+
+Provides the extra “squeeze” in patients with cardiac decompensation.</string>
+		<key>Indications</key>
+		<string>Short-term management of patients with heart failure. 
+
+Adjunct for septic shock (as a positive inotrope) in combination with other inotropic agents such as Levophed.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W.
+
+Caution in hypotensive patients. 
+
+Central line preferred.
+
+Peripheral vasodilatation initially occurs due to β dominating over α1  properties.  Use with additional agents is recommended. 
+
+Treat extravasation injuries with Phentolamine (Regitine). 
+
+Adverse Effects: Hypertension, tachycardia.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Dopamine</string>
+		<key>BrandName</key>
+		<string>Intropin</string>
+		<key>min</key>
+		<string>2</string>
+		<key>max</key>
+		<string>20</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>totaldose</key>
+		<string>400</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>10</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Inotrope,  Adrenergic Agonist,  Catecholamine.</string>
+		<key>Indications</key>
+		<string>Adjunct to treat shock, MI, open heart surgery, renal failure.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W
+
+2-5 mcg/kg/min: Stimulates mainly dopaminergic  and produce renal and mesenteric vasodilation.
+
+5-10 mcg/kg/min: Both dopaminergic and beta1- adrenergic stimulating and produce cardiac stimulation and renal vasodilation.
+
+10-20 mcg/kg/min:  Stimulates α1 receptors by released Norepinephrine causing arteriolar constriction and increased Systemic Vascular Resistance.
+
+Extravasation injuries can be treated with Phentolamine (Regitine). 
+
+Off label use: Heart block unresponsive to atropine or pacing; Symptomatic bradycardia.
+
+Central line preferred.
+
+Adverse Effects: Hypertension, tachycardia, tissue extravasation,  ventricular dysrhythmias, N/V.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Epinephrine</string>
+		<key>BrandName</key>
+		<string>Adrenaline</string>
+		<key>min</key>
+		<string>1</string>
+		<key>max</key>
+		<string>10</string>
+		<key>unit</key>
+		<string>mcg/min</string>
+		<key>totaldose</key>
+		<string>4</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>5</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>α / β- agonist, sympathomimetic catecholamine.
+
+Potent cardiac stimulant that stimulates both alpha and beta receptors. ↑SVR, ↑BP by vasoconstriction.
+
+Bronchodilation.</string>
+		<key>Indications</key>
+		<string>Shock and anaphylactic reactions.
+
+Hypotension unresponsive to fluid resuscitation. 
+
+Bradycardia not responsive to initial agents.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W
+
+Off-label use: Bradycardia unresponsive to atropine or pacing. Severe asthma.
+
+Central line preferred.
+
+Epinephrine is inactivated by Sodium Bicarbonate. 
+
+Use caution in patients taking TCAs as hypertension and arrhythmias could result. 
+
+Push Dose: Mix is made by adding 1 ml of Epinephrine 1:10,000 to 9 ml of diluent resulting in a 1:100,000 concentration. Recommended dose - 0.5-2 mL q 2-5 min. (5-20 mcg). Onset:1 min, Duration 5-10 minutes. 
+
+Adverse Effects: Arrhythmias, tissue necrosis, hypertension, cardiac ectopy tremors, Renal insufficiency, anxiety, pulmonary edema, myocardial ischemia.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Epinephrine</string>
+		<key>BrandName</key>
+		<string>Adrenaline</string>
+		<key>min</key>
+		<string>0.05</string>
+		<key>max</key>
+		<string>1.0</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>totaldose</key>
+		<string>8</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>0.2</string>
+		<key>increment</key>
+		<string>0.05</string>
+		<key>DrugClass</key>
+		<string>α / β- agonist, sympathomimetic catecholamine.
+
+Potent cardiac stimulant that stimulates both alpha and beta receptors. ↑SVR, ↑BP by vasoconstriction.
+
+Bronchodilation.</string>
+		<key>Indications</key>
+		<string>Shock and anaphylactic reactions.
+
+Hypotension unresponsive to fluid resuscitation. 
+
+Bradycardia not responsive to initial agents.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W
+
+Off-label use: Bradycardia unresponsive to atropine or pacing. Severe asthma.
+
+Central line preferred.
+
+Epinephrine is inactivated by Sodium Bicarbonate. 
+
+Use caution in patients taking TCAs as hypertension and arrhythmias could result. 
+
+Push Dose: Mix is made by adding 1 ml of Epinephrine 1:10,000 to 9 ml of diluent resulting in a 1:100,000 concentration. Recommended dose - 0.5-2 mL q 2-5 min. (5-20 mcg). Onset:1 min, Duration 5-10 minutes. 
+
+Adverse Effects: Arrhythmias, tissue necrosis, hypertension, cardiac ectopy tremors, Renal insufficiency, anxiety, pulmonary edema, myocardial ischemia.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Esmolol</string>
+		<key>BrandName</key>
+		<string>Brevibloc</string>
+		<key>min</key>
+		<string>50</string>
+		<key>max</key>
+		<string>200</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>totaldose</key>
+		<string>2500</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>100</string>
+		<key>increment</key>
+		<string>50</string>
+		<key>DrugClass</key>
+		<string>Short-acting β1 selective adrenergic blocker, Class II antiarrhythmic, and negative chronotrope.
+
+Blocks the agonistic effect of the sympathetic neurotransmitters by competing for receptor binding sites. 
+
+Because it predominantly blocks the beta-1 receptors in cardiac tissue, it is said to be cardioselective.</string>
+		<key>Indications</key>
+		<string>Rate control in A- fib / A-flutter or SVT.
+
+Hypertensive crisis. 
+
+Malignant HTN in the case of aneurysms, aortic dissections or ICH.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W, usually pre-mixed.
+
+Infusion usually followed by a 500 mcg/kg bolus.
+
+Off label use: Thyrotoxicosis, Pheochromocytoma.
+
+Central line preferred.
+
+Esmolol is incompatible with Sodium Bicarbonate. 
+
+Adverse Effects: Hypotension, diaphoresis, bradycardia, syncope, pulmonary edema, arrhythmias, CHF, bronchospasm, thrombophlebitis, bronchospasm. </string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Fentanyl</string>
+		<key>BrandName</key>
+		<string>Sublimaze</string>
+		<key>min</key>
+		<string>25</string>
+		<key>max</key>
+		<string>250</string>
+		<key>unit</key>
+		<string>mcg/hr</string>
+		<key>totaldose</key>
+		<string>1</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>50</string>
+		<key>increment</key>
+		<string>5.0</string>
+		<key>DrugClass</key>
+		<string>Synthetic opium-derived narcotic analgesic.</string>
+		<key>Indications</key>
+		<string>PISA - Post Intubation Sedation and Analgesia.
+
+Adjunct to general anesthesia.
+
+Pain Management.
+
+Pre-medication for RSI.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W.
+
+Approximately 100 times more potent than morphine mg for mg.
+
+Use caution in obese patients. Fentanyl distributes to adipose tissue, requiring a larger initial dose to see an effect.
+
+Fentanyl can cause chest wall rigidity. Can be successfully be treated with paralytics and Narcan.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Furosemide</string>
+		<key>BrandName</key>
+		<string>Lasix</string>
+		<key>min</key>
+		<string>20</string>
+		<key>max</key>
+		<string>160</string>
+		<key>unit</key>
+		<string>mg/hr</string>
+		<key>totaldose</key>
+		<string>200</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>50</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Potent loop diuretic. 
+
+Works in the anterior loop of Henle, proximal and distal tubules inhibiting Na+ and Cl-reabsorption thus excreting H20, Na+, K+, Cl-, Ca+, and Mg+.</string>
+		<key>Indications</key>
+		<string>Pulmonary Edema and  Hypertension.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, and D5W.
+
+Causes vasodilation by binding to NO. Use lower does in renal impairment.
+
+Monitor fluid status and renal function to prevent oliguria,  azotemia, and increases in BUN/Creatinine.</string>
+	</dict>
+	<dict>
+		<key>BrandName</key>
+		<string>Heparin</string>
+		<key>maintitle</key>
+		<string>Heparin</string>
+		<key>min</key>
+		<string>300</string>
+		<key>max</key>
+		<string>3000</string>
+		<key>unit</key>
+		<string>units/hr</string>
+		<key>totaldose</key>
+		<string>25000</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>500</string>
+		<key>increment</key>
+		<string>100</string>
+		<key>DrugClass</key>
+		<string>Anticoagulant.
+
+Potentiates the action of antithrombin III thereby inactivating thrombin as well as factors IX, X, XI, XII, and plasmin) and prevents the conversion of fibrinogen to fibrin.</string>
+		<key>Indications</key>
+		<string>Thromboembolic disorders.
+
+Anticoagulant during PCI.
+
+Acute Coronary Syndromes.
+
+Pulmonary Embolism, and thrombosis.
+
+Valvular disease, atrial fibrillation.
+
+Anticoagulant for extracorporeal circulation and dialysis procedures.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W, usually pre-mixed.
+
+Dosage based on PTT or ACT. See protocols for dosing.
+
+Monitor platelets, Hgb, aPTT, signs of bleeding at IV sites, tarry stools.
+
+Heparin can also cause hyperkalemia by suppressing aldosterone production.
+
+Adverse Effects: Hyperkalemia, Heparin-Induced thrombocytopenia (HIT), bruising, increased liver enzymes, hematuria, hemoptysis.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Ketamine</string>
+		<key>BrandName</key>
+		<string>Ketalar</string>
+		<key>min</key>
+		<string>0.1</string>
+		<key>max</key>
+		<string>4.5</string>
+		<key>unit</key>
+		<string>mg/kg/hr</string>
+		<key>description</key>
+		<string>Mix in NS or D5W</string>
+		<key>totaldose</key>
+		<string>100</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>2</string>
+		<key>increment</key>
+		<string>0.5</string>
+		<key>DrugClass</key>
+		<string>Dissociative and general anesthetic.
+
+Unlike other general anesthetic agents, ketamine does not interact with GABA receptors. Instead, it non-competitively binds with N- methyl-D-aspartate  (NMDA) receptors, opioid receptors, monoaminergic receptors, muscarinic receptors, and voltage-sensitive Ca ion channels producing a dissociative effect from the surrounding environment. </string>
+		<key>Indications</key>
+		<string>Procedural Section. RSI
+
+Adjunct in pain management.
+
+Depressive episodes and Bi-polar disorders.
+
+Status epilepticus (refractory).</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W.
+
+Emergence reactions are treated usually by increasing the dose of ketamine or with benzodiazepines prn.
+
+Adverse Effects: Emergence reactions, bronchodilation, 
+HTN, increased CO, tachycardia, may increased ICP, vivid
+imagery/hallucinations, tonic-clonic movements.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Labetalol</string>
+		<key>BrandName</key>
+		<string>Trandate</string>
+		<key>min</key>
+		<string>2</string>
+		<key>max</key>
+		<string>10</string>
+		<key>unit</key>
+		<string>mg/min</string>
+		<key>description</key>
+		<string>Mix in NS or D5W</string>
+		<key>totaldose</key>
+		<string>200</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>1</string>
+		<key>increment</key>
+		<string>1</string>
+		<key>DrugClass</key>
+		<string>Non-selective β-blocker, mild α1 blocker; negative
+chronotrope.</string>
+		<key>Indications</key>
+		<string>Hypertensive emergencies.
+
+Aortic aneurysm management.
+
+Blood pressure management for intracranial hemorrhages, hypertension during an ischemic stroke, subarachnoid hemorrhage, chronic hypertension in pregnancy.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W.
+
+The ratio of alpha: beta blockade is estimated to be 1:7 IV.
+
+The use of Labetalol may blunt reflex tachycardia due to the α-1 blocking properties, but will not prevent the correlated hypotension caused by these agents.
+ 
+Adverse Effects: Dizziness, hypotension, fatigue. </string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Lidocaine</string>
+		<key>BrandName</key>
+		<string>Xylocaine</string>
+		<key>min</key>
+		<string>1</string>
+		<key>max</key>
+		<string>4</string>
+		<key>unit</key>
+		<string>mg/min</string>
+		<key>totaldose</key>
+		<string>1000</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>2</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Class 1B Antiarrhythmic.
+
+Works by efficiently binding and blocking the fast voltage-gated Na+ channels on cardiomyocytes.</string>
+		<key>Indications</key>
+		<string>Ventricular arrhythmias.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, or D5W.
+
+Caution in elderly patients. 
+
+Caution in those patients with hepatic dysfunction and pseudocholinesterase deficiency as patients are more susceptible to lidocaine toxicity. 
+
+Adverse Effects:  Hypotension, paresthesia, dizziness, CNS disturbances, seizures, pro-arrhythmias.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Magnesium Sulfate</string>
+		<key>BrandName</key>
+		<string>MgSO4</string>
+		<key>min</key>
+		<string>1</string>
+		<key>max</key>
+		<string>4</string>
+		<key>unit</key>
+		<string>g/hr</string>
+		<key>totaldose</key>
+		<string>4</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>2</string>
+		<key>increment</key>
+		<string>1</string>
+		<key>DrugClass</key>
+		<string>Electrolyte, Anticonvulsant.
+
+Effects numerous electrolyte and enzyme pathways in a variety of cell types including the myocardium, bronchial tree and skeletal smooth muscle. Activates Na-K ATPase, a coenzyme involved in muscle contraction, mitochondrial function, cell membrane permeability, and resting membrane potential.
+
+Intravenous magnesium may improve pulmonary function in patients with asthma relaxing the bronchial smooth muscle independent of serum magnesium concentration.</string>
+		<key>Indications</key>
+		<string>Status asthmaticus, pre-Eclampsia, eclampsia, Torsades de Pointes,  cardiac arrhythmias recurrent or refractory (v-tach and v-Fib), bronchoconstriction, hypomagnesemia.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NS, D5W.
+
+Closely monitor patients to avoid magnesium toxicity. 
+
+Infusions longer than 5 to 7 days may cause adverse fetal events. 
+
+Adverse Effects: Flushing, nausea and vomiting, hypotension, respiratory depression, loss of deep tendon reflexes, CNS depression. Side effects, especially hypotension, are related to the rate of infusion. Consider a slower loading dose or lower total dose if severe side effects occur.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Midazolam</string>
+		<key>BrandName</key>
+		<string>Versed</string>
+		<key>min</key>
+		<string>1</string>
+		<key>max</key>
+		<string>7</string>
+		<key>unit</key>
+		<string>mg/hr</string>
+		<key>totaldose</key>
+		<string>100</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>3</string>
+		<key>increment</key>
+		<string>0.5</string>
+		<key>DrugClass</key>
+		<string>Benzodiazepine, sedative / hypnotic. </string>
+		<key>Indications</key>
+		<string>Seizures, preoperative/procedural sedation, anxiolysis,  intubation, conscious sedation as an adjunct to cardioversion, chemical restraint, acute coronary syndromes believed to be under the influence of cocaine.
+
+Loading dose dose: 0.02-0.08 mg/kg.</string>
+		<key>WhatToKnow</key>
+		<string>Onset of action: 1-5 minutes Duration: average 2 hours. Pediatric patients (typically under six years of age) may require higher mg/kg doses than adults. 
+
+Drug elimination can be delayed in neonates, patients with liver dysfunction, decreased cardiac output (receiving inotropic support), and on P450 3A4 inhibitors such as erythromycin. 
+
+Versed also exerts sedative, hypnotic, muscle relaxant, anxiolytic and anticonvulsant characteristics.
+
+Also, versed potentiates GABA by binding to specific stereospecific benzodiazepine receptors on the postsynaptic GABA neuron at different sites within the central nervous system. </string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Nitroglycerin</string>
+		<key>BrandName</key>
+		<string>Tridil</string>
+		<key>min</key>
+		<string>5</string>
+		<key>max</key>
+		<string>200</string>
+		<key>unit</key>
+		<string>mcg/min</string>
+		<key>totaldose</key>
+		<string>25</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>10</string>
+		<key>increment</key>
+		<string>0.5</string>
+		<key>DrugClass</key>
+		<string>Antianginal, Coronary Vasodilator, Nitrate
+
+Nitroglycerin forms free radical nitric oxide. Produces a vasodilatory effect on peripheral vein and arteries, primarily the veins. Dilation of the veins causes blood to pool peripherally, thus, decreasing venous return to the heart reducing preload.</string>
+		<key>Indications</key>
+		<string>Cardiac chest pain, pulmonary edema, congestive heart failure (CHF).</string>
+		<key>WhatToKnow</key>
+		<string>Pre-Mixed, Can mix in D5W.
+
+Can be used as an extravasation antidote. 
+
+Infusions longer than 5 to 7 days may cause adverse fetal events.
+
+Off-label use: Pulmonary HTN, relaxation of the uterus. Esophageal varices.
+
+Adverse Effects:  headache, nausea/vomiting, hypertension, methemoglobinemia, tachycardia, flushing.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Nipride</string>
+		<key>BrandName</key>
+		<string>Nitroprusside</string>
+		<key>min</key>
+		<string>0.1</string>
+		<key>max</key>
+		<string>5</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>totaldose</key>
+		<string>50</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>1</string>
+		<key>increment</key>
+		<string>0.25</string>
+		<key>DrugClass</key>
+		<string>Vasodilator;  Antihypertensive.
+
+Nipride decreases B/P by relaxing the vascular smooth muscle resulting in the dilatation of peripheral arteries and veins, especially arteries and arterioles by direct action on venous and arteriolar smooth muscle, thus reducing blood pressure. </string>
+		<key>Indications</key>
+		<string>Hypertension associated with stroke after attempts at rate control have proven inadequate, hypertensive crisis with evidence of end-organ damage, decompensated heart failure.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in D5W preferred. Light sensitive.
+
+Joins with hemoglobin to produce cyanide and cyanmethemoglobin. 
+
+Should suspect methemoglobinemia in pt&apos;s receiving greater than 10 mcg/kg/min with signs and symptoms of inadequate perfusion.
+
+Renal insufficiency, renal failure, and high dose contributes to methemoglobinemia and Cyanide toxicity.
+
+Adverse Effects: Hypotension, tachycardia, nausea and vomiting, impaired renal function or doses &gt; 3mcg/kg/min for &gt; 72 hours may cause thiocyanate toxicity (thiocyanate &gt; 20mg/l); thiocyanate levels should be monitored in all patients receiving &gt; 48 hours of nitroprusside, cyanide toxicity also possible; treatment includes amyl nitrate, sodium nitrite, and sodium thiosulfate.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Norepinephrine</string>
+		<key>BrandName</key>
+		<string>Levophed</string>
+		<key>min</key>
+		<string>2</string>
+		<key>max</key>
+		<string>50</string>
+		<key>unit</key>
+		<string>mcg/min</string>
+		<key>description</key>
+		<string>Mix in NS or D5W</string>
+		<key>totaldose</key>
+		<string>16</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>4</string>
+		<key>increment</key>
+		<string>0.5</string>
+		<key>DrugClass</key>
+		<string>Vasopressor, Alpha &amp; Beta - Agonist
+
+Binds to α-1 and β-1 receptors causing arteriolar constriction,  increasing heart rate and coronary artery perfusion. 
+
+The α-1 effects are typically more significant than the β-1 effects. </string>
+		<key>Indications</key>
+		<string>Recommended as a  first-line agent for shock.
+
+Refractory hypotension despite adequate fluid volume.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in D5W. 
+
+Central line preferred.
+
+Do Not Mix with Normal Saline. 
+
+Incompatible with bicarbonate. Alkalizing agents in the solution deactivate the medication.
+
+MAO-I inhibitors may prolong hypertension.
+
+Treat extravasation injuries with phentolamine.
+
+Adverse Effects: Tachycardia, local tissue necrosis (extravasation), hypertension, headache, palpitations, ventricular dysrhythmias and ectopy, dyspnea, nausea, vomiting, piloerection, and anxiety.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Norepinephrine</string>
+		<key>BrandName</key>
+		<string>Levophed </string>
+		<key>min</key>
+		<string>0.01</string>
+		<key>max</key>
+		<string>3</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>description</key>
+		<string>Mix in NS or D5W</string>
+		<key>totaldose</key>
+		<string>16</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>0.05</string>
+		<key>increment</key>
+		<string>0.01</string>
+		<key>DrugClass</key>
+		<string>Vasopressor, Alpha &amp; Beta - Agonist
+
+Binds to α-1 and β-1 receptors causing arteriolar constriction,  increasing heart rate and coronary artery perfusion. 
+
+The α-1 effects are typically more significant than the β-1 effects. </string>
+		<key>Indications</key>
+		<string>Recommended as a  first-line agent for shock.
+
+Refractory hypotension despite adequate fluid volume.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in D5W. 
+
+Central line preferred.
+
+Do Not Mix with Normal Saline. 
+
+Incompatible with bicarbonate. Alkalizing agents in the solution deactivate the medication.
+
+MAO-I inhibitors may prolong hypertension.
+
+Treat extravasation injuries with phentolamine.
+
+Adverse Effects: Tachycardia, local tissue necrosis (extravasation), hypertension, headache, palpitations, ventricular dysrhythmias and ectopy, dyspnea, nausea, vomiting, piloerection, and anxiety.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Phenylephrine</string>
+		<key>BrandName</key>
+		<string>Neosynephrine</string>
+		<key>min</key>
+		<string>20</string>
+		<key>max</key>
+		<string>300</string>
+		<key>unit</key>
+		<string>mcg/min</string>
+		<key>totaldose</key>
+		<string>50</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>20</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Vasopressor, Alpha-adrenergic agonist.
+
+A potent α-1 adrenergic agonist that produces systemic arterial vasoconstriction. Virtually, no beta activity.
+
+Ultimately raises blood pressure, decreases heart rate and cardiac output in patients with heart failure.</string>
+		<key>Indications</key>
+		<string>Treatment of shock.
+
+Refractory hypotension despite adequate fluid volume.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NSS, or D5W.
+
+Contraindicated in severe hypertension, V-Tach. 
+
+It is antagonized by phenothiazines, diuretics and adrenergic blockers.
+
+It is potentiated by TCA’s, MAOI’s, oxytocin and atropine.
+
+Central line preferred.
+
+Extravasation treated with Phentolamine (Regitine)
+
+Push Dose: (50 – 200 mcg) IV/IO. Mix 5 mg / 50 ml NSS or 10 mg / 100 ml NSS = 100 mcg/ml. Recommended dose - 0.5-2 mL q 2-5 min (50-200 mcg). Onset: 1 min, Duration: 10-20 minutes.
+  
+Adverse Effects: Headache, seizures, weakness, CVA, chest pain, restlessness, respiratory distress, reflex bradycardia.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Primacor</string>
+		<key>BrandName</key>
+		<string>Milrinone</string>
+		<key>min</key>
+		<string>0.375</string>
+		<key>max</key>
+		<string>0.75</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>description</key>
+		<string>Available Pre-Mixed</string>
+		<key>totaldose</key>
+		<string>40</string>
+		<key>bag</key>
+		<string>200</string>
+		<key>dose</key>
+		<string>0.375</string>
+		<key>increment</key>
+		<string>0.05</string>
+		<key>DrugClass</key>
+		<string>Inotrope, Phosphodiesterase inhibitor.
+
+In the cardiac and vascular tissue, Milrinone acts as a selective phosphodiesterase inhibitor.
+
+Results in inotropic activity, vasodilation, decreased preload/afterload - thus, increasing cardiac output.</string>
+		<key>Indications</key>
+		<string>Short term treatment of heart failure unresponsive to conventional diuretic and vasodilators.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NSS, or D5W. Available pre-mixed.
+
+Arrhythmias are common.
+
+Monitor heart rate and BP continuously.
+
+Monitor electrolytes.
+
+Central line preferred.
+
+Adverse Effects: Hypokalemia, thrombocytopenia, increased liver enzymes,  angina pectoris, chest pain, hypotension, supraventricular arrhythmias, headache.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Procainamide</string>
+		<key>BrandName</key>
+		<string>Pronestyl</string>
+		<key>min</key>
+		<string>1</string>
+		<key>max</key>
+		<string>4</string>
+		<key>unit</key>
+		<string>mg/min</string>
+		<key>totaldose</key>
+		<string>1000</string>
+		<key>bag</key>
+		<string>250</string>
+		<key>dose</key>
+		<string>2</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Class 1-A antiarrhythmic.
+
+Suppresses cardiac arrhythmias by blocking Na channels, increasing the cardiac action potential and relative refractory period, decreasing membrane responsiveness.</string>
+		<key>Indications</key>
+		<string>Treatment of life-threatening ventricular dysrhythmias,
+V-Tach, refractory V-Fib, PSVT, and WPW.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in NSS, or D5W. Available pre-mixed.
+
+Monitor for proarrhythmic effects.
+
+Reduce dose if first-degree heart block occurs.
+
+Stop administering the loading dose of the drug if the max dose is reached, hypotension develops, the patient’s QRS widens by 50% from its baseline measurement or the dysrhythmia is suppressed.
+
+Contraindicated in SLE, Torsades de pointes, heart blocks.
+
+Central line preferred.
+
+Adverse Effects: Rash, myalgia, Torsades de Pointes, heart block, hypotension, cardiac dysrhythmias.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Rocuronium</string>
+		<key>BrandName</key>
+		<string>Zemuron</string>
+		<key>min</key>
+		<string>4</string>
+		<key>max</key>
+		<string>16</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>totaldose</key>
+		<string>100</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>10</string>
+		<key>increment</key>
+		<string>1.0</string>
+		<key>DrugClass</key>
+		<string>Non-depolarizing paralytic.
+
+Competes and blocks acetylcholine from binding to receptors on the motor endplate inhibiting depolarization. 
+
+Competes and blocks acetylcholine from binding to receptors on the motor endplate inhibiting depolarization.
+Competes and blocks acetylcholine from binding to receptors on the motor endplate inhibiting depolarization.• Competes and blocks acetylcholine from binding to
+  receptors on the motor endplate inhibiting
+  depolarization.</string>
+		<key>Indications</key>
+		<string>Adjunct to general anesthesia to maintain paralysis &amp; to facilitate endotracheal intubation providing skeletal muscle relaxation.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in D5W.
+
+Does not produce sedation or relieve pain.
+
+Pediatrics may require more frequent dosing.
+
+Substitute for succinylcholine for patients with expected hyperkalemia.
+
+Use caution in patients with Myasthenia Gravis or similar neuromotor disease.
+
+Adverse Effects: Hypotension, hypertension, bronchospasm, dysrhythmias, histamine release, Malignant Hyperthermia.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Vecuronium</string>
+		<key>BrandName</key>
+		<string>Norcuron</string>
+		<key>min</key>
+		<string>0.5</string>
+		<key>max</key>
+		<string>1.3</string>
+		<key>unit</key>
+		<string>mcg/kg/min</string>
+		<key>totaldose</key>
+		<string>10</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>0.5</string>
+		<key>increment</key>
+		<string>0.1</string>
+		<key>DrugClass</key>
+		<string>Non-depolarizing paralytic.
+
+Competes and blocks acetylcholine from binding to receptors on the motor endplate inhibiting depolarization.
+
+Competes and blocks acetylcholine from binding to receptors on the motor endplate inhibiting depolarization.</string>
+		<key>Indications</key>
+		<string>Adjunct to general anesthesia to maintain paralysis &amp; to facilitate endotracheal intubation providing skeletal muscle relaxation.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in D5W or NSS.
+
+Does not produce sedation or relieve pain.
+
+Some patients may experience delayed recovery after prolonged use.
+
+Respiratory alkalosis, peripheral neuropathies, muscle trauma, hypercalcemia, may antagonize vecuronium.
+
+Adverse Effects: Hypotension, hypertension, bronchospasm, dysrhythmias, histamine release, Malignant Hyperthermia.</string>
+	</dict>
+	<dict>
+		<key>maintitle</key>
+		<string>Vasopressin</string>
+		<key>BrandName</key>
+		<string>ADH, Pitressin</string>
+		<key>min</key>
+		<string>0.01</string>
+		<key>max</key>
+		<string>0.04</string>
+		<key>unit</key>
+		<string>units/min</string>
+		<key>totaldose</key>
+		<string>20</string>
+		<key>bag</key>
+		<string>100</string>
+		<key>dose</key>
+		<string>0.02</string>
+		<key>increment</key>
+		<string>0.0001</string>
+		<key>DrugClass</key>
+		<string>Antidiuretic hormone, Vasopressor.
+
+Decreases urinary output and increases urine osmolality by binding to V1 receptors in vascular muscle causing vasoconstriction - alters the permeability of the collecting ducts, allowing for the reabsorption H20.
+
+Directly stimulates the muscles of the GI tract.
+
+High doses act as a nonadrenergic peripheral vasoconstrictor.</string>
+		<key>Indications</key>
+		<string>Central DI.
+
+Off-label use: Shock states resistant to standard pharmacology particularly in the presence of acidotic states. GI hemorrhage.</string>
+		<key>WhatToKnow</key>
+		<string>Mix in D5W, NSS.
+
+Neither has inotropic or chronotropic properties.
+
+Pediatric Shock: 0.0003 – 0.002 units/kg/ min; Titrate to effect.
+
+Contraindicated in patients with chronic renal failure.
+
+Monitor urine specific gravity throughout therapy
+
+Adverse Effects: GI cramping, water intoxication, hyponatremia, nausea, vomiting, chest pain, diarrhea, tremors, pallor, CNS Changes.</string>
+	</dict>
+</array>
+</plist>

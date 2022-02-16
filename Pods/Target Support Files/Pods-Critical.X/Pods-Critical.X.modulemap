@@ -1,0 +1,6 @@
+framework module Pods_Critical_X {
+  umbrella header "Pods-Critical.X-umbrella.h"
+
+  export *
+  module * { export * }
+}

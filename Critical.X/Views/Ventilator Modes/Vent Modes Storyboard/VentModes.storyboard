@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CPb-s6-2pA">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vent Mode Collection View-->
+        <scene sceneID="a8z-bK-w77">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="CPb-s6-2pA" customClass="VentMode_CollectionView" customModule="Critical_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9UP-fE-pGN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NIK-Dx-fGz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="P3u-sU-zTJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dY8-8Z-BRR">
+                                            <rect key="frame" x="273" y="31" width="35" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" name="Critical Black"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <state key="normal" title="X">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="dismissVent:" destination="CPb-s6-2pA" eventType="touchUpInside" id="K73-eV-8m8"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vHu-Fs-Fa1">
+                                <rect key="frame" x="0.0" y="119" width="320" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4pP-0f-MTr">
+                                    <size key="itemSize" width="302" height="84"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="O4R-Ez-vmO" customClass="VentModeCell" customModule="Critical_X" customModuleProvider="target">
+                                        <rect key="frame" x="9" y="0.0" width="302" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="302" height="84"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SIMV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUN-kU-OvR">
+                                                    <rect key="frame" x="-1" y="44" width="302" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                                    <color key="textColor" name="Clouds"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="2"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BiLevel NIPPV" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5m7-Pk-4cr">
+                                                    <rect key="frame" x="0.0" y="10" width="301" height="42"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="24"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CRITICAL_VentLogo_Circle" translatesAutoresizingMaskIntoConstraints="NO" id="4Rq-jy-Jhx">
+                                                    <rect key="frame" x="11" y="4" width="32" height="34"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" name="Shamrock Green"/>
+                                        <connections>
+                                            <outlet property="ventTitle" destination="5m7-Pk-4cr" id="8zT-Wx-704"/>
+                                            <outlet property="ventdetailTitle" destination="FUN-kU-OvR" id="TjW-O6-4mb"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="CPb-s6-2pA" id="0Ij-wa-v2p"/>
+                                    <outlet property="delegate" destination="CPb-s6-2pA" id="Uh6-rl-Piz"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ventilator Modes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EUF-P1-naD" customClass="AKLabel" customModule="AKLabel">
+                                <rect key="frame" x="18" y="63" width="282" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="42"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ojo-eg-7vH"/>
+                    </view>
+                    <connections>
+                        <outlet property="VentTitleLabel" destination="EUF-P1-naD" id="MQc-5q-wuN"/>
+                        <outlet property="closeButton" destination="dY8-8Z-BRR" id="snc-RG-yFY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5iS-Q0-nme" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3106.875" y="-1500"/>
+        </scene>
+        <!--Vent Mode detailVC-->
+        <scene sceneID="lqf-XT-cif">
+            <objects>
+                <viewController storyboardIdentifier="A" modalPresentationStyle="overFullScreen" id="3Dn-dI-Ydh" customClass="VentMode_detailVC" customModule="Critical_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZAn-5H-hZo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4v-KD-R5A">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="ncb-33-cjb">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="32K-EG-JUV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ctU-ap-0zy">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1268"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHE-8N-ybI">
+                                                <rect key="frame" x="8" y="109" width="304" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="304" id="4Y6-EC-M2c"/>
+                                                    <constraint firstAttribute="height" constant="21" id="fGj-0l-T7h"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                                <color key="textColor" name="Critical Red"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Synchronized Intermittent Mandatory Ventilation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGB-m9-qX3">
+                                                <rect key="frame" x="16" y="58" width="288" height="51"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="51" id="1fW-jr-KDZ"/>
+                                                    <constraint firstAttribute="width" constant="288" id="hJt-pl-7u8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="43"/>
+                                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqW-0P-qhU">
+                                                <rect key="frame" x="16" y="145" width="288" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wij-yX-Znd">
+                                                <rect key="frame" x="270" y="22" width="35" height="35"/>
+                                                <color key="backgroundColor" name="Critical Black"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="35" id="83w-6y-0mn"/>
+                                                    <constraint firstAttribute="height" constant="35" id="aNw-OV-Dtp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="X">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="dismissVentDetail:" destination="3Dn-dI-Ydh" eventType="touchUpInside" id="TRy-mJ-QEi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1268" id="2Ah-bd-u8e"/>
+                                            <constraint firstAttribute="trailing" secondItem="wij-yX-Znd" secondAttribute="trailing" constant="15" id="BP2-e3-VpZ"/>
+                                            <constraint firstItem="tqW-0P-qhU" firstAttribute="leading" secondItem="ctU-ap-0zy" secondAttribute="leading" constant="16" id="GWx-8V-2R7"/>
+                                            <constraint firstItem="xGB-m9-qX3" firstAttribute="top" secondItem="ctU-ap-0zy" secondAttribute="top" constant="58" id="NaJ-8D-xl2"/>
+                                            <constraint firstAttribute="bottom" secondItem="xGB-m9-qX3" secondAttribute="bottom" constant="1159" id="WWd-m3-PEe"/>
+                                            <constraint firstAttribute="width" constant="320" id="ZsM-1P-gtu"/>
+                                            <constraint firstAttribute="trailing" secondItem="tqW-0P-qhU" secondAttribute="trailing" constant="16" id="bIv-Wb-82v"/>
+                                            <constraint firstItem="tqW-0P-qhU" firstAttribute="top" secondItem="SHE-8N-ybI" secondAttribute="bottom" constant="15" id="ccg-hm-Nx8"/>
+                                            <constraint firstAttribute="trailing" secondItem="xGB-m9-qX3" secondAttribute="trailing" constant="16" id="evv-Df-MIO"/>
+                                            <constraint firstItem="xGB-m9-qX3" firstAttribute="leading" secondItem="ctU-ap-0zy" secondAttribute="leading" constant="16" id="fG8-5K-dp8"/>
+                                            <constraint firstItem="SHE-8N-ybI" firstAttribute="leading" secondItem="ctU-ap-0zy" secondAttribute="leading" constant="8" id="mhf-Wh-0Fu"/>
+                                            <constraint firstAttribute="trailing" secondItem="SHE-8N-ybI" secondAttribute="trailing" constant="8" id="rZL-bK-fxO"/>
+                                            <constraint firstItem="SHE-8N-ybI" firstAttribute="top" secondItem="xGB-m9-qX3" secondAttribute="bottom" id="uLA-bG-9Vo"/>
+                                            <constraint firstItem="wij-yX-Znd" firstAttribute="top" secondItem="ctU-ap-0zy" secondAttribute="top" constant="22" id="xUE-mC-vUQ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.68888300660000001" green="0.71366006140000005" blue="0.73448425530000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ctU-ap-0zy" firstAttribute="width" secondItem="32K-EG-JUV" secondAttribute="width" id="NTu-mR-Tf9"/>
+                                    <constraint firstAttribute="trailing" secondItem="ctU-ap-0zy" secondAttribute="trailing" id="SwV-wp-8AE"/>
+                                    <constraint firstItem="ctU-ap-0zy" firstAttribute="leading" secondItem="32K-EG-JUV" secondAttribute="leading" id="hZ2-OX-Fa7"/>
+                                    <constraint firstAttribute="bottom" secondItem="ctU-ap-0zy" secondAttribute="bottom" id="pFC-AD-nwP"/>
+                                    <constraint firstItem="ctU-ap-0zy" firstAttribute="top" secondItem="32K-EG-JUV" secondAttribute="top" id="ySR-Jn-wnh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="32K-EG-JUV" firstAttribute="trailing" secondItem="nUc-0d-5Pq" secondAttribute="trailing" id="a4L-N3-WYa"/>
+                            <constraint firstItem="32K-EG-JUV" firstAttribute="top" secondItem="ZAn-5H-hZo" secondAttribute="top" id="gLn-Ip-lft"/>
+                            <constraint firstItem="32K-EG-JUV" firstAttribute="leading" secondItem="nUc-0d-5Pq" secondAttribute="leading" id="sqa-MD-D5u"/>
+                            <constraint firstItem="32K-EG-JUV" firstAttribute="bottom" secondItem="nUc-0d-5Pq" secondAttribute="bottom" id="xuO-XO-fto"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nUc-0d-5Pq"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="wij-yX-Znd" id="LJ8-en-iVx"/>
+                        <outlet property="contentView" destination="ctU-ap-0zy" id="6XB-V1-Mgu"/>
+                        <outlet property="descriptionLabel" destination="tqW-0P-qhU" id="iy9-di-J6I"/>
+                        <outlet property="scrollHeight" destination="2Ah-bd-u8e" id="eYj-XR-blY"/>
+                        <outlet property="subTitleLabel" destination="SHE-8N-ybI" id="FiE-Hs-cEK"/>
+                        <outlet property="titleLabel" destination="xGB-m9-qX3" id="nyR-xM-HKf"/>
+                        <outlet property="ventDetailScrollView" destination="32K-EG-JUV" id="561-ck-bfO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WRK-nk-jdg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3802.5" y="-1500"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CRITICAL_VentLogo_Circle" width="1782" height="1771"/>
+        <namedColor name="Clouds">
+            <color red="0.92500001192092896" green="0.94099998474121094" blue="0.94499999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Critical Black">
+            <color red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Critical Red">
+            <color red="0.81568627450980391" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Shamrock Green">
+            <color red="0.3411764705882353" green="0.65490196078431373" blue="0.45098039215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
